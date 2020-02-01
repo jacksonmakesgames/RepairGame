@@ -31,10 +31,10 @@ public class PlayerTargeter : MonoBehaviour
     private void LateUpdate()
     {
         polygonCollider.transform.position = transform.position + new Vector3(1 * Mathf.Sign(transform.localScale.x) * beamStartPos.x, beamStartPos.y, 0f);
-        SetTarget();
+        if(Player.Instance.canBeam) DoBeam();
 
     }
-    void SetTarget()
+    void DoBeam()
     {
         spriteRenderer.enabled = false;
         joyInput = new Vector2(Input.GetAxis("JoystickLookX"), Input.GetAxis("JoystickLookY"));

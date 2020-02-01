@@ -22,6 +22,8 @@ public class Missile : MonoBehaviour
     AudioClip explosionSound;
 
     AudioSource audioSource;
+
+    int breakPointCount = 0;
     private void Awake()
     {
         col = GetComponent<BoxCollider2D>();
@@ -69,10 +71,13 @@ public class Missile : MonoBehaviour
 
     public void PassThroughEnd()
     {
-        gameObject.layer = LayerMask.NameToLayer("Missile");
+        breakPointCount--;
+        if(breakPointCount<=0)
+            gameObject.layer = LayerMask.NameToLayer("Missile");
 
     }
     public void PassThrough() {
+        breakPointCount++;
         gameObject.layer = LayerMask.NameToLayer("Passing Missile");
     }
 

@@ -11,8 +11,9 @@ public class Player : MonoBehaviour
 
     public int maxScapHeld;
 
-    [SerializeField]
-    private float interactRange;
+    public bool canBeam = true;
+
+    public float interactRange;
 
     [SerializeField]
     TextMeshProUGUI scrapText;
