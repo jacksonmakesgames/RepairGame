@@ -7,7 +7,8 @@ public class PlayerMovement : MonoBehaviour
 
     const float skinWidth = .015f;
 
-    public Vector3 velocity;
+    [SerializeField]
+    private Vector3 velocity;
 
     [SerializeField]
     bool debug = false;
@@ -25,8 +26,12 @@ public class PlayerMovement : MonoBehaviour
 
     public CollisionInfo collisions;
 
-    float accelerationTimeGround = .05f;
+    [SerializeField]
     private float moveSpeed;
+
+    [SerializeField]
+    float accelerationTimeGround = .05f;
+
     float velocityXSmoothing;
 
     protected Animator animator;
@@ -144,7 +149,8 @@ public class PlayerMovement : MonoBehaviour
 
     void VerticalCollisions(ref Vector3 velocity)
     {
-        boxCollider.enabled = false;
+        boxCollider.enabled = false; // TODO: performance?
+
         float dirY = Mathf.Sign(velocity.y);
         float rayLength = Mathf.Abs(velocity.y) + skinWidth;
         for (int i = 0; i < veritcalRayCount; i++)
@@ -158,53 +164,50 @@ public class PlayerMovement : MonoBehaviour
                 rayLength = hit.distance;
                 collisions.below = dirY == -1;
                 collisions.above = dirY == 1;
-                }
             }
-
-            //if (debug)
-            //    Debug.DrawRay(rayOrigin, Vector2.up * dirY * (rayLength) * 3.0f, Color.red);
-        }
-
-
+        if (debug)
+            Debug.DrawRay(rayOrigin, Vector2.up * dirY * (rayLength) * 3.0f, Color.red);
     
+        }
+        boxCollider.enabled = true;
+
+
+    }
+
+
+
     void Update()
     {
 
-    if ((collisions.below || collisions.above))
-        velocity.y = 0;
+        if ((collisions.below || collisions.above))
+            velocity.y = 0;
 
-    Vector2 targetVelocity = getPlayerInput(); // todo: make AI system, maybe abstract out the getplayerinput method
+        Vector2 targetVelocity = getPlayerInput(); // todo: make AI system, maybe abstract out the getplayerinput method
 
+        velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocity.x, ref velocityXSmoothing, (accelerationTimeGround));
+        velocity.y = targetVelocity.y;
 
-    velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocity.x, ref velocityXSmoothing, (accelerationTimeGround));
-    velocity.y = targetVelocity.y;
+        velocity.y += 1 * gravity * Time.deltaTime;
 
+        if (velocity.y > maximumVerticalVelocity) velocity.y = maximumVerticalVelocity;
+        if (velocity.y < -maximumVerticalVelocity) velocity.y = -maximumVerticalVelocity;
 
-    float mod = velocity.y < 0.0f ? downGravityModifier : 1 / downGravityModifier;
+        Move(velocity * Time.deltaTime);
 
-    velocity.y += mod * gravity * Time.deltaTime;
+        animator.SetFloat("VelocityX", Mathf.Abs(velocity.x));
+        animator.SetFloat("VelocityY", velocity.y);
+        spriteRenderer.flipX = velocity.x < 0;
 
-    if (velocity.y > maximumVerticalVelocity) velocity.y = maximumVerticalVelocity;
-    if (velocity.y < -maximumVerticalVelocity) velocity.y = -maximumVerticalVelocity;
-
-    Move(velocity * Time.deltaTime);
-
-    animator.SetFloat("VelocityX", Mathf.Abs(velocity.x));
-    animator.SetFloat("VelocityY", velocity.y);
-
-    spriteRenderer.flipX = velocity.x < 0;
-
-}
+    }
 
 
-private Vector2 getPlayerInput()
-{
-    Vector2 targetVelocity = velocity;
+    private Vector2 getPlayerInput()
+    {
+        Vector2 targetVelocity = velocity;
 
-    Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-    targetVelocity.x = input.x * moveSpeed;
-    return targetVelocity;
-
-}
+        targetVelocity.x = input.x * moveSpeed;
+        return targetVelocity;
+    }
 }
