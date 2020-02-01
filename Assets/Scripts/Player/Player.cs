@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
     public static Player Instance;
+
+    [SerializeField]
+    private int nScrapHeld;
+
+    [SerializeField]
+    private float interactRange;
+
     void Awake()
     {
         if (Player.Instance != null)
@@ -14,10 +20,37 @@ public class Player : MonoBehaviour
             return;
         }
         else Instance = this;
+
+        nScrapHeld = 0;
     }
 
     void Update()
     {
+        if (Input.GetButtonDown("Interact")) {
+            Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, interactRange);
+            if (cols.Length == 0) return;
+            float minDist = 10000;
+            Collider2D closestCol = cols[0];
+            foreach (Collider2D collider in cols) {
+                if (collider.GetComponent<Interactable>() == null){
+                    continue;
+                }
+                float thisDist = Vector2.Distance(transform.position, collider.gameObject.transform.position);
+                if (thisDist< minDist) {
+                    minDist = thisDist;
+                    closestCol = collider;
+                }
+            }
+            if (closestCol.GetComponent<Interactable>() != null) {
+                closestCol.GetComponent<Interactable>().Interact();
+            }
+        }
         
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.white;
+        Gizmos.DrawWireSphere(transform.position, interactRange);
     }
 }
