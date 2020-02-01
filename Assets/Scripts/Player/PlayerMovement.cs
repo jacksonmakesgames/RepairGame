@@ -63,6 +63,10 @@ public class PlayerMovement : MonoBehaviour
         }
         rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
 
+        // prevent player falling through floor //TODO: hacky...
+        if (transform.position.y < -4.0f) {
+            transform.position = new Vector3(transform.position.x, -    3.5f, transform.position.z);
+        }
     }
 
     void Awake()

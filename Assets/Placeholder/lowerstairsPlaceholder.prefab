@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 105812077}
   - component: {fileID: 105812078}
   - component: {fileID: 6863421519284032077}
+  - component: {fileID: 1371084728}
   m_Layer: 8
   m_Name: lowerstairsPlaceholder
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 59d9ef79d88f769458590b0f676b47fb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 79bc0970f96a1354fb276ffd457b9ba7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,7 +102,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5, y: 1.53}
+    oldSize: {x: 1.7, y: 1.53}
     newSize: {x: 1.5, y: 1.53}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -109,10 +110,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.65, y: -0.765}
-      - {x: -0.7, y: -0.765}
-      - {x: 0.75, y: 0.755}
-      - {x: 0.74, y: 0.685}
+    - - {x: -0.63539755, y: -0.7869108}
+      - {x: -0.9007827, y: -0.79786587}
+      - {x: 0.70516014, y: 0.76367927}
+      - {x: 0.8586554, y: 0.7666304}
+      - {x: 0.85227585, y: 0.68208194}
 --- !u!251 &105812078
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -144,3 +146,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 583f463ec2f34e341b2a81da5dd51737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1371084728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020143976516761637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c42176d859fd2c46ba7f31a8ce82e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteMask: {fileID: 1950590580487941664, guid: 379b56860e7035443b1f2bdd66f3be51,
+    type: 3}
+  grid: {fileID: 0}
