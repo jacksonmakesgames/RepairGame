@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Building
+  - Missile
+  - Break Point
   layers:
   - Default
   - TransparentFX
@@ -16,9 +18,9 @@ TagManager:
   - 
   - Solid
   - Player
-  - 
-  - 
-  - 
+  - Passing Missile
+  - Radio
+  - Missile
   - 
   - 
   - 

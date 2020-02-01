@@ -4,31 +4,38 @@ using UnityEngine;
 
 public class Stairs : MonoBehaviour
 {
-    private enum StairType {Bottom, Top }
+    private PlatformEffector2D effector;
 
-  
-    [SerializeField]
-    float disabledDuration = .01f;
+    float waitTime = .1f;
 
-    float disabledTime = 0.0f;
-    PolygonCollider2D col;
-
+    float originalOffset;
     private void Awake()
     {
-       col=  GetComponent<PolygonCollider2D>();
+        effector = GetComponent<PlatformEffector2D>();
+        originalOffset = effector.rotationalOffset;
     }
 
-    void FixedUpdate()
+    float currentWaitTime = 0.0f;
+
+    void Update()
     {
+        if (Input.GetButtonUp("Down")) {
+            currentWaitTime = waitTime;
+            effector.rotationalOffset = originalOffset;
+
+        }
+
+        if (Input.GetButton("Down")) {
+            if (currentWaitTime <= 0)
+            {
+                effector.rotationalOffset = originalOffset + 180.0f;
+                currentWaitTime = waitTime;
+            }
+            else {
+                currentWaitTime -= Time.deltaTime;
+            }
+        }
        
-            if (Input.GetButtonDown("Down")) {
-            disabledTime = Time.time;
-            col.enabled = false;
-            
-        }
-        if (Time.time > disabledTime + disabledDuration) {
-            col.enabled = true;
-        }
     }
 
 }

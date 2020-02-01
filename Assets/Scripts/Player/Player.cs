@@ -1,16 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
     public static Player Instance;
 
-    [SerializeField]
-    private int nScrapHeld;
+    public int nScrapHeld;
+
+    public int maxScapHeld;
 
     [SerializeField]
     private float interactRange;
+
+    [SerializeField]
+    TextMeshProUGUI scrapText;
 
     void Awake()
     {
@@ -48,6 +53,18 @@ public class Player : MonoBehaviour
         
     }
 
+    public void removeScrap(int amt) {
+        nScrapHeld -= amt;
+        if (nScrapHeld < 0) nScrapHeld = 0;
+        scrapText.text = "Scrap: " + nScrapHeld.ToString();
+
+    }
+    public void addScap(int amt) {
+        nScrapHeld += amt;
+        if (nScrapHeld > maxScapHeld) nScrapHeld = maxScapHeld;
+        scrapText.text = "Scrap: " + nScrapHeld.ToString();
+    }
+    
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.white;

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Player))]
 public class PlayerMovement : MonoBehaviour
 {
 
@@ -51,17 +52,16 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         originalPhysicsMaterial = boxCollider.sharedMaterial;
     }
-    public void Move(Vector3 velocity)
+    public void Move()
     {
-        float move = Input.GetAxis("Horizontal");
-        if (Input.GetAxisRaw("Horizontal") != 0){
+        float move = Input.GetAxisRaw("Horizontal");
+        if (move != 0){
             boxCollider.sharedMaterial = noFriction;
         }
         else {
             boxCollider.sharedMaterial = originalPhysicsMaterial;
         }
         rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
-
 
     }
 
@@ -80,10 +80,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
-        Move(velocity * Time.deltaTime);
-
+        Move();
+        
         animator.SetFloat("VelocityX", Mathf.Abs(rb.velocity.x));
         animator.SetFloat("VelocityY", rb.velocity.y);
 
