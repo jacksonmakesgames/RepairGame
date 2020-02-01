@@ -12,6 +12,9 @@ public class MissleSpawner : MonoBehaviour
     [SerializeField]
     GameObject misslePrefab;
 
+     [SerializeField]
+    GameObject alertPrefab;
+
     [SerializeField]
     float spawnRatePerSecond;
 
@@ -55,6 +58,12 @@ public class MissleSpawner : MonoBehaviour
         Vector3 rotatedVectorToTarget = Quaternion.Euler(0, 0, 180) * vectorToTarget;
         Quaternion rot = Quaternion.LookRotation(forward: Vector3.forward, upwards: rotatedVectorToTarget);
         GameObject.Instantiate(misslePrefab, spawnLocation, rot, transform);
+
+        x = Mathf.Sin(Mathf.Deg2Rad * angle) * spawnRadius/2.8f;
+        y = Mathf.Cos(Mathf.Deg2Rad * angle) * spawnRadius/2.8f;
+        Vector3 alertLocation = transform.position + new Vector3(x, y, 0);
+        GameObject.Instantiate(alertPrefab, alertLocation, rot, transform);
+
     }
 
     [SerializeField]

@@ -24,6 +24,8 @@ public class Missile : MonoBehaviour
     AudioSource audioSource;
 
     int breakPointCount = 0;
+
+    //explosions are 170
     private void Awake()
     {
         col = GetComponent<BoxCollider2D>();

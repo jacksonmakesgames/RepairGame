@@ -4,6 +4,8 @@ using UnityEngine;
 using System;
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance;
+
     [Range(.00001f, .05f)]
     [SerializeField]
     private float fadeLength; // seconds/step
@@ -16,7 +18,7 @@ public class AudioManager : MonoBehaviour
     }
     public NamedTrack[] namedTracks;
 
-    private Dictionary<string, AudioClip> audioClips = new Dictionary<string, AudioClip>();
+    public  Dictionary<string, AudioClip> audioClips = new Dictionary<string, AudioClip>();
     AudioSource source;
 
     AudioClip currentTrack;
@@ -28,6 +30,9 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
+        if (AudioManager.Instance != null) { Destroy(this.gameObject); return; } else { AudioManager.Instance = this; }
+        DontDestroyOnLoad(this);
+
         foreach (NamedTrack t in namedTracks) {
             audioClips.Add(t.name, t.track);
         }
@@ -40,7 +45,7 @@ public class AudioManager : MonoBehaviour
 
     public void ChangeTrack(AudioClip track) {
         if (currentTrack == track) return;
-        StartCoroutine(FadeToNewClip(track));
+       FadeToNewClip(track);
     }
 
     IEnumerator FadeIn() {
@@ -67,7 +72,10 @@ public class AudioManager : MonoBehaviour
         fading = false;
     }
 
-    IEnumerator FadeToNewClip(AudioClip clip) {
+    public void FadeToNewClip(AudioClip clip) {
+        StartCoroutine(FadeToNewClipEnum(clip));
+    }
+    IEnumerator FadeToNewClipEnum(AudioClip clip) {
         yield return StartCoroutine(FadeOut());
         source.clip = clip;
         yield return StartCoroutine(FadeIn());
@@ -81,8 +89,6 @@ public class AudioManager : MonoBehaviour
 
     void Update()
     {
-        //TESTING:
-        if (Input.GetButtonDown("Fire1")) { StartCoroutine(FadeToNewClip(audioClips["Game"])); }
         
     }
 }

@@ -5,7 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Player))]
 public class PlayerMovement : MonoBehaviour
 {
-
+    [SerializeField]
+    LayerMask groundMask;
 
     [SerializeField]
     PhysicsMaterial2D noFriction;
@@ -15,8 +16,6 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     bool debug = false;
-
-    public CollisionInfo collisions;
 
     [SerializeField]
     private float moveSpeed;
@@ -28,23 +27,13 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
 
     protected BoxCollider2D boxCollider;
-    RaycastOrigins raycastOrigins;
 
     PhysicsMaterial2D originalPhysicsMaterial;
-    struct RaycastOrigins
-    {
-        public Vector2 topLeft, bottomLeft, topRight, bottomRight;
-    }
 
-    public struct CollisionInfo
-    {
-        public bool above, below, left, right;
-        public void Reset()
-        {
-            above = below = left = right = false;
-        }
+    CircleCollider2D groundCheck;
 
-    }
+    bool isGrounded = false;
+   
 
     private void Start()
     {
@@ -81,6 +70,8 @@ public class PlayerMovement : MonoBehaviour
         {
             animator = GetComponentInChildren<Animator>();
         }
+
+        groundCheck = GetComponent<CircleCollider2D>();
     }
 
 
@@ -90,9 +81,12 @@ public class PlayerMovement : MonoBehaviour
         
         animator.SetFloat("VelocityX", Mathf.Abs(rb.velocity.x));
         animator.SetFloat("VelocityY", rb.velocity.y);
-
         spriteRenderer.flipX = velocity.x < 0;
 
+        //grounded:
+        isGrounded = Physics2D.OverlapCircle(transform.position + new Vector3(groundCheck.offset.x, groundCheck.offset.y, 0), groundCheck.radius, groundMask);
+
+        animator.SetBool("Grounded", isGrounded);
     }
 
 

@@ -10,8 +10,8 @@ public class MainMenu : MonoBehaviour
     AudioClip beginClip;
 
     public void LoadGameLevel(int levelIndex) {
-        buttonAudioSource.PlayOneShot(beginClip);
-        SceneManager.LoadScene(levelIndex);
+        //buttonAudioSource.PlayOneShot(beginClip);
+        GameManager.Instance.LoadScene(levelIndex);
     }
 
     public void Quit() {

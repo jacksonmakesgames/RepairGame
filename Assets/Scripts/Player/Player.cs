@@ -6,18 +6,16 @@ using TMPro;
 public class Player : MonoBehaviour
 {
     public static Player Instance;
-
     public int nScrapHeld;
-
     public int maxScapHeld;
-
     public bool canBeam = true;
-
     public float interactRange;
+    public int maxHealth = 100;
+    private int health;
 
     [SerializeField]
     TextMeshProUGUI scrapText;
-
+    
     void Awake()
     {
         if (Player.Instance != null)
@@ -28,6 +26,7 @@ public class Player : MonoBehaviour
         else Instance = this;
 
         nScrapHeld = 0;
+        health = maxHealth;
     }
 
     void Update()
@@ -65,10 +64,23 @@ public class Player : MonoBehaviour
         if (nScrapHeld > maxScapHeld) nScrapHeld = maxScapHeld;
         scrapText.text = "Scrap: " + nScrapHeld.ToString();
     }
+
+    public void removeHealth(int amt) {
+        health -= amt;
+        if (health < 0) Die();
+    }
+    public void addHealth(int amt) {
+        health += amt;
+        if (health > maxHealth) health = maxHealth;
+    }
     
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.white;
         Gizmos.DrawWireSphere(transform.position, interactRange);
+    }
+
+    private void Die() {
+        print("Player Died");
     }
 }

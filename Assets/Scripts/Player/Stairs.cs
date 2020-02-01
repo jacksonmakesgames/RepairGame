@@ -6,7 +6,7 @@ public class Stairs : MonoBehaviour
 {
     private PlatformEffector2D effector;
 
-    float waitTime = .05f;
+    float waitTime = 0f;
 
     float originalOffset;
     private void Awake()
