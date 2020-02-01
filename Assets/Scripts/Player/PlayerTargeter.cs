@@ -5,7 +5,7 @@ public class PlayerTargeter : MonoBehaviour
 {
 
     [SerializeField]
-    private float powerRange = 8;
+    private float powerRange = 3;
 
     [SerializeField]
     private float powerSpread;

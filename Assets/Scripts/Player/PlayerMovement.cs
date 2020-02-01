@@ -33,7 +33,9 @@ public class PlayerMovement : MonoBehaviour
     CircleCollider2D groundCheck;
 
     bool isGrounded = false;
-   
+
+    [SerializeField]
+    float jumpForce;
 
     private void Start()
     {
@@ -55,6 +57,13 @@ public class PlayerMovement : MonoBehaviour
         // prevent player falling through floor //TODO: hacky...
         if (transform.position.y < -4.0f) {
             transform.position = new Vector3(transform.position.x, -    3.5f, transform.position.z);
+        }
+
+        //jump
+        if (isGrounded) {
+            if (Input.GetButtonDown("Jump")) {
+                rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+            }
         }
     }
 
