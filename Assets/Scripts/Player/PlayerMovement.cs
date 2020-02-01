@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour
     const float skinWidth = .015f;
 
     [SerializeField]
+    PhysicsMaterial2D noFriction;
+
+    [SerializeField]
     private Vector3 velocity;
 
     [SerializeField]
@@ -40,15 +43,18 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     float downGravityModifier = 1.2f;
 
+    [SerializeField]
+    LayerMask groundMask;
 
     float horizontalRaySpacing;
     float verticalRaySpacing;
 
+    private Rigidbody2D rb;
 
     protected BoxCollider2D boxCollider;
     RaycastOrigins raycastOrigins;
 
-
+    PhysicsMaterial2D originalPhysicsMaterial;
     struct RaycastOrigins
     {
         public Vector2 topLeft, bottomLeft, topRight, bottomRight;
@@ -67,7 +73,9 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
+        rb = GetComponent<Rigidbody2D>();
         CalculateRaySpacing();
+        originalPhysicsMaterial = boxCollider.sharedMaterial;
     }
 
     void UpdateRaycastOrigins()
@@ -96,15 +104,28 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(Vector3 velocity)
     {
-        UpdateRaycastOrigins();
-        collisions.Reset();
+        //UpdateRaycastOrigins();
+        //collisions.Reset();
 
-        if (velocity.x != 0)
-            HorizontalCollisions(ref velocity);
-        if (velocity.y != 0)
-            VerticalCollisions(ref velocity);
+        //if (velocity.x != 0)
+        //    HorizontalCollisions(ref velocity);
+        //if (velocity.y != 0)
+        //    VerticalCollisions(ref velocity);
 
-        transform.Translate(velocity);
+        //transform.Translate(velocity);
+
+
+        float move = Input.GetAxis("Horizontal");
+        if (move != 0)
+        {
+            boxCollider.sharedMaterial = noFriction;
+        }
+        else {
+            boxCollider.sharedMaterial = originalPhysicsMaterial;
+        }
+        rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
+
+
     }
 
     void Awake()
@@ -122,80 +143,32 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    void HorizontalCollisions(ref Vector3 velocity)
-    {
-        boxCollider.enabled = false; // TODO: performance?
-
-        float dirX = Mathf.Sign(velocity.x);
-        float rayLength = Mathf.Abs(velocity.x) + skinWidth;
-        for (int i = 0; i < horizontalRayCount; i++)
-        {
-            Vector2 rayOrigin = (dirX == -1) ? raycastOrigins.bottomLeft : raycastOrigins.bottomRight;
-            rayOrigin += Vector2.up * (verticalRaySpacing * i);
-            RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.right * dirX, rayLength, collisionMask);
-            if (hit)
-            {
-                velocity.x = (hit.distance - skinWidth) * dirX;
-                rayLength = hit.distance;
-                collisions.left = (dirX == -1);
-                collisions.right = (dirX == 1);
-            }
-
-            if (debug)
-                Debug.DrawRay(rayOrigin, Vector2.right * dirX * (rayLength) * 10.0f, Color.red);
-        }
-        boxCollider.enabled = true;
-    }
-
-    void VerticalCollisions(ref Vector3 velocity)
-    {
-        boxCollider.enabled = false; // TODO: performance?
-
-        float dirY = Mathf.Sign(velocity.y);
-        float rayLength = Mathf.Abs(velocity.y) + skinWidth;
-        for (int i = 0; i < veritcalRayCount; i++)
-        {
-            Vector2 rayOrigin = (dirY == -1) ? raycastOrigins.bottomLeft : raycastOrigins.topLeft;
-            rayOrigin += Vector2.right * (verticalRaySpacing * i + velocity.x);
-            RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.up * dirY, rayLength, collisionMask);
-            if (hit)
-            {
-                velocity.y = (hit.distance - skinWidth) * dirY;
-                rayLength = hit.distance;
-                collisions.below = dirY == -1;
-                collisions.above = dirY == 1;
-            }
-        if (debug)
-            Debug.DrawRay(rayOrigin, Vector2.up * dirY * (rayLength) * 3.0f, Color.red);
-    
-        }
-        boxCollider.enabled = true;
-
-
-    }
-
-
-
     void Update()
     {
 
-        if ((collisions.below || collisions.above))
-            velocity.y = 0;
+        //if ((collisions.below || collisions.above))
+        //    velocity.y = 0;
 
-        Vector2 targetVelocity = getPlayerInput(); // todo: make AI system, maybe abstract out the getplayerinput method
+        //Vector2 targetVelocity = getPlayerInput(); // todo: make AI system, maybe abstract out the getplayerinput method
 
-        velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocity.x, ref velocityXSmoothing, (accelerationTimeGround));
-        velocity.y = targetVelocity.y;
+        //velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocity.x, ref velocityXSmoothing, (accelerationTimeGround));
+        //velocity.y = targetVelocity.y;
 
-        velocity.y += 1 * gravity * Time.deltaTime;
+        //velocity.y += 1 * gravity * Time.deltaTime;
 
-        if (velocity.y > maximumVerticalVelocity) velocity.y = maximumVerticalVelocity;
-        if (velocity.y < -maximumVerticalVelocity) velocity.y = -maximumVerticalVelocity;
+        //if (velocity.y > maximumVerticalVelocity) velocity.y = maximumVerticalVelocity;
+        //if (velocity.y < -maximumVerticalVelocity) velocity.y = -maximumVerticalVelocity;
+
 
         Move(velocity * Time.deltaTime);
 
-        animator.SetFloat("VelocityX", Mathf.Abs(velocity.x));
-        animator.SetFloat("VelocityY", velocity.y);
+        animator.SetFloat("VelocityX", Mathf.Abs(rb.velocity.x));
+        animator.SetFloat("VelocityY", rb.velocity.y);
+
+
+
+        //animator.SetFloat("VelocityX", Mathf.Abs(velocity.x));
+        //animator.SetFloat("VelocityY", velocity.y);
         spriteRenderer.flipX = velocity.x < 0;
 
     }

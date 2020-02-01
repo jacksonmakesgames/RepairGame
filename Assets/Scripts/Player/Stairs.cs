@@ -6,37 +6,28 @@ public class Stairs : MonoBehaviour
 {
     private enum StairType {Bottom, Top }
 
-    [SerializeField]
-    StairType type;
+  
 
-    [SerializeField]
-    LayerMask playerMask;
+    float disabledDuration = .5f;
 
-    [SerializeField]
-    Transform target;
+    float disabledTime = 0.0f;
+    PolygonCollider2D col;
 
-    [SerializeField]
-
-
-    //private void OnTriggerStay2D(Collider2D collision)
-    //{
-    //    if (playerMask == (playerMask | (1 << collision.gameObject.layer))){
-    //        if ((type == StairType.Bottom && Input.GetButtonDown("Up")) || (type == StairType.Top) && Input.GetButtonDown("Down")){
-    //         //collision.gameObject.transform.position = target.position;
-    //        }
-    //    }
-    //}
-
-
-
-    void Update()
+    private void Awake()
     {
-        if (GetComponent<BoxCollider2D>().IsTouchingLayers(playerMask.value))
-        {
-            if ((type == StairType.Bottom && Input.GetButtonDown("Up")) || (type == StairType.Top) && Input.GetButtonDown("Down"))
-            {
-                Player.Instance.gameObject.transform.position = target.position;
-            }
+       col=  GetComponent<PolygonCollider2D>();
+    }
+
+    void FixedUpdate()
+    {
+       
+            if (Input.GetButtonDown("Down")) {
+            disabledTime = Time.time;
+            col.enabled = false;
+            
+        }
+        if (Time.time > disabledTime + disabledDuration) {
+            col.enabled = true;
         }
     }
 
