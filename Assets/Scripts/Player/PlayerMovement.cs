@@ -54,8 +54,7 @@ public class PlayerMovement : MonoBehaviour
     public void Move(Vector3 velocity)
     {
         float move = Input.GetAxis("Horizontal");
-        if (Input.GetAxisRaw("Horizontal") != 0)
-        {
+        if (Input.GetAxisRaw("Horizontal") != 0){
             boxCollider.sharedMaterial = noFriction;
         }
         else {

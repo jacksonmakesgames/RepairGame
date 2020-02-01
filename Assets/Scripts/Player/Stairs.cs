@@ -7,8 +7,8 @@ public class Stairs : MonoBehaviour
     private enum StairType {Bottom, Top }
 
   
-
-    float disabledDuration = .5f;
+    [SerializeField]
+    float disabledDuration = .01f;
 
     float disabledTime = 0.0f;
     PolygonCollider2D col;
