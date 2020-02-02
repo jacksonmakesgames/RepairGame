@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public bool canBeam = true;
     public float interactRange;
     public int maxHealth = 100;
-    private int health;
+    public int health;
 
     [SerializeField]
     TextMeshProUGUI scrapText;

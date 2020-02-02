@@ -28,13 +28,16 @@ public class Radio : Interactable
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Missile") {
-            print("RADIO HIT");
-            health -= 10;
-
-            if (health <= 0) {
-                print("radio destroyed");
-            }
             collision.gameObject.GetComponent<Missile>().Explode(collision);
+        }
+    }
+
+    public void Damage() {
+        health -= 10;
+
+        if (health <= 0)
+        {
+            print("radio destroyed");
         }
     }
 }

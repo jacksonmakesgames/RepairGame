@@ -8,6 +8,7 @@ TagManager:
   - Missile
   - Break Point
   - Shield
+  - Radio
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Radio
   - Missile
   - Shield
-  - 
+  - Explosion
   - 
   - 
   - 

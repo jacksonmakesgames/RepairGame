@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BreakPoint : Interactable
 {
+    [SerializeField]
+    GameObject smokeEffect;
+
     public override void Interact(){
         if (Player.Instance.nScrapHeld > 0)
         {
@@ -15,10 +18,20 @@ public class BreakPoint : Interactable
         }
     }
 
+    private void Awake()
+    {
+        if (Random.Range(0.0f, 2.0f) < 1.0f) {
+            Instantiate(smokeEffect, transform.position, Quaternion.identity, transform);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Missile")) {
             collision.gameObject.GetComponent<Missile>().PassThrough();
+        }
+        if (collision.gameObject.CompareTag("Break Point")) {
+            Destroy(collision.gameObject);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

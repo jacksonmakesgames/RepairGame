@@ -60,12 +60,14 @@ public class Missile : MonoBehaviour
         if (collision.gameObject.tag == "Building")
         {
             collision.gameObject.GetComponent<Building>().Damage(collision.contacts[0]);
-            Instantiate(explosionEffect, collision.contacts[0].point, Quaternion.identity);
+            var randomRotation = Quaternion.Euler(0, 0, Random.Range(0, 360));
+            Instantiate(explosionEffect, collision.contacts[0].point, randomRotation);
         }
         else {
-            Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            var randomRotation = Quaternion.Euler(0, 0, Random.Range(0, 360));
+            Instantiate(explosionEffect, transform.position, randomRotation);
         }
-
+        CameraShake.Instance.Shake();
         audioSource.PlayOneShot(explosionSound);
 
         Destroy(this.gameObject);
