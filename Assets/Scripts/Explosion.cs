@@ -6,18 +6,23 @@ public class Explosion : MonoBehaviour
 {
     CircleCollider2D collider;
 
-    private void Awake()
-    {
-        
+    private void Awake(){
+        collider = GetComponent<CircleCollider2D>();
+        CheckCollisions();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Radio")) {
-            collision.GetComponent<Radio>().Damage();
-        } 
-        else if (collision.gameObject.CompareTag("Player")) {
-            collision.GetComponent<Player>().removeHealth(10);
+    private void CheckCollisions(){
+
+       Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, collider.radius);
+        foreach (Collider2D collider in cols)
+        {
+            if (collider.gameObject.CompareTag("Radio")) {
+                collider.GetComponent<Radio>().Damage();
+            } 
+            else if (collider.gameObject.CompareTag("Player")) {
+                collider.GetComponent<Player>().removeHealth(10);
+            }
+
         }
     }
 

@@ -40,6 +40,7 @@ public class PlayerTargeter : MonoBehaviour
         joyInput = new Vector2(Input.GetAxis("JoystickLookX"), Input.GetAxis("JoystickLookY"));
         if (Input.GetButton("Fire1") || joyInput.magnitude > 0.1f)
         {
+            GetComponent<PlayerMovement>().canMove = false;
             spriteRenderer.enabled = true;
             Vector3 input = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
             Vector3 lookPos = Camera.main.ScreenToWorldPoint(input);
@@ -54,6 +55,8 @@ public class PlayerTargeter : MonoBehaviour
 
         }
         else {
+            GetComponent<PlayerMovement>().canMove = true;
+
             return;
         }
 

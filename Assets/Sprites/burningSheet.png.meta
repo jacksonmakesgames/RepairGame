@@ -1,0 +1,1579 @@
+fileFormatVersion: 2
+guid: 9c189da37aedf09438cd044e255c12f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1608368630803784320
+    second: burningSheet_0
+  - first:
+      213: 4749696169142151861
+    second: burningSheet_1
+  - first:
+      213: 997075919747390854
+    second: burningSheet_2
+  - first:
+      213: -7199149427437503432
+    second: burningSheet_3
+  - first:
+      213: -7259022487454829226
+    second: burningSheet_4
+  - first:
+      213: -5137684784348706649
+    second: burningSheet_5
+  - first:
+      213: -7560316148031743955
+    second: burningSheet_6
+  - first:
+      213: -577062610710781428
+    second: burningSheet_7
+  - first:
+      213: 82319826284143289
+    second: burningSheet_8
+  - first:
+      213: 8551201064964927998
+    second: burningSheet_9
+  - first:
+      213: -1911808918510806058
+    second: burningSheet_10
+  - first:
+      213: -4584744971190842126
+    second: burningSheet_11
+  - first:
+      213: -476641274716096054
+    second: burningSheet_12
+  - first:
+      213: -2156196391772050594
+    second: burningSheet_13
+  - first:
+      213: 8564325617747961885
+    second: burningSheet_14
+  - first:
+      213: -1817442468250027222
+    second: burningSheet_15
+  - first:
+      213: -7755149215858654578
+    second: burningSheet_16
+  - first:
+      213: -2590787359566461619
+    second: burningSheet_17
+  - first:
+      213: -4087355130484635184
+    second: burningSheet_18
+  - first:
+      213: -8240742167954867672
+    second: burningSheet_19
+  - first:
+      213: 4274924547613885968
+    second: burningSheet_20
+  - first:
+      213: 3508084230470582536
+    second: burningSheet_21
+  - first:
+      213: -2111969324587605216
+    second: burningSheet_22
+  - first:
+      213: 9014069256290512765
+    second: burningSheet_23
+  - first:
+      213: 6520599425870407234
+    second: burningSheet_24
+  - first:
+      213: -7317625830320997689
+    second: burningSheet_25
+  - first:
+      213: 922237572842892054
+    second: burningSheet_26
+  - first:
+      213: 8977392932403632870
+    second: burningSheet_27
+  - first:
+      213: -20744636014060227
+    second: burningSheet_28
+  - first:
+      213: -7409432220484611030
+    second: burningSheet_29
+  - first:
+      213: -4763378101954837327
+    second: burningSheet_30
+  - first:
+      213: 6375935762379222584
+    second: burningSheet_31
+  - first:
+      213: 664223089786395624
+    second: burningSheet_32
+  - first:
+      213: -5494018128964816032
+    second: burningSheet_33
+  - first:
+      213: 8898578043889098444
+    second: burningSheet_34
+  - first:
+      213: -24420878088407316
+    second: burningSheet_35
+  - first:
+      213: -3619225218727650671
+    second: burningSheet_36
+  - first:
+      213: 9095758634994180776
+    second: burningSheet_37
+  - first:
+      213: 988701008309695779
+    second: burningSheet_38
+  - first:
+      213: 8935843192878071461
+    second: burningSheet_39
+  - first:
+      213: -2593697729083675506
+    second: burningSheet_40
+  - first:
+      213: -454392979425538313
+    second: burningSheet_41
+  - first:
+      213: -1297024418423403197
+    second: burningSheet_42
+  - first:
+      213: -1012050036453182248
+    second: burningSheet_43
+  - first:
+      213: -4058399832717596235
+    second: burningSheet_44
+  - first:
+      213: -1794233806381241703
+    second: burningSheet_45
+  - first:
+      213: 8929205272163831695
+    second: burningSheet_46
+  - first:
+      213: -2813271321618233988
+    second: burningSheet_47
+  - first:
+      213: -6272331438107732669
+    second: burningSheet_48
+  - first:
+      213: 2737695912914785160
+    second: burningSheet_49
+  - first:
+      213: 7705193870156984991
+    second: burningSheet_50
+  - first:
+      213: 2054642583392555087
+    second: burningSheet_51
+  - first:
+      213: 8867391209834002106
+    second: burningSheet_52
+  - first:
+      213: 2859224398762539079
+    second: burningSheet_53
+  - first:
+      213: 5632025141174605739
+    second: burningSheet_54
+  - first:
+      213: -8293999034553484862
+    second: burningSheet_55
+  - first:
+      213: 235388720249145532
+    second: burningSheet_56
+  - first:
+      213: 144951598408533277
+    second: burningSheet_57
+  - first:
+      213: 5433189817981772327
+    second: burningSheet_58
+  - first:
+      213: -2587174081710721647
+    second: burningSheet_59
+  - first:
+      213: -9082535594795915188
+    second: burningSheet_60
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: burningSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5112
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082e0fa8fb2125610800000000000000
+      internalID: 1608368630803784320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_1
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 5112
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba60c8308f4ae140800000000000000
+      internalID: 4749696169142151861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 5112
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d93aa244356dd00800000000000000
+      internalID: 997075919747390854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 5112
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c71ac0dbb771c90800000000000000
+      internalID: -7199149427437503432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 5112
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655bea2f185c24b90800000000000000
+      internalID: -7259022487454829226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 5112
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a847f4c8e643b8b0800000000000000
+      internalID: -5137684784348706649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 5112
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d281be6058c541790800000000000000
+      internalID: -7560316148031743955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4473
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02ac6bec9cddf7f0800000000000000
+      internalID: -577062610710781428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_8
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 4473
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b263a32275742100800000000000000
+      internalID: 82319826284143289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 4473
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef13d28ff08fba670800000000000000
+      internalID: 8551201064964927998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 4473
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db5db5fae3e775e0800000000000000
+      internalID: -1911808918510806058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 4473
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc496e5db6bf50c0800000000000000
+      internalID: -4584744971190842126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_12
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 4473
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9f1473941a269f0800000000000000
+      internalID: -476641274716096054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_13
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 4473
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ba2724ec6a312e0800000000000000
+      internalID: -2156196391772050594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3834
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1825aa06c89ad670800000000000000
+      internalID: 8564325617747961885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_15
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 3834
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b7f3054b527c6e0800000000000000
+      internalID: -1817442468250027222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 3834
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82889070ec206490800000000000000
+      internalID: -7755149215858654578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_17
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 3834
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4508708f9cab0cd0800000000000000
+      internalID: -2590787359566461619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_18
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 3834
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9c7902a2cc647c0800000000000000
+      internalID: -4087355130484635184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_19
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 3834
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ab779d8a003ad80800000000000000
+      internalID: -8240742167954867672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_20
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 3834
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0168f1ef935935b30800000000000000
+      internalID: 4274924547613885968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3195
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801495f55083fa030800000000000000
+      internalID: 3508084230470582536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_22
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 3195
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0232f67c617c0b2e0800000000000000
+      internalID: -2111969324587605216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 3195
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f27f1ea38681d70800000000000000
+      internalID: 9014069256290512765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_24
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 3195
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2462f9551a2dd7a50800000000000000
+      internalID: 6520599425870407234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_25
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 3195
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca7e78e312927a90800000000000000
+      internalID: -7317625830320997689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_26
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 3195
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ba1dfaf227ccc00800000000000000
+      internalID: 922237572842892054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_27
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 3195
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea5509ce4b169c70800000000000000
+      internalID: 8977392932403632870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2556
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d136b0ddc46bff0800000000000000
+      internalID: -20744636014060227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_29
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2556
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a245eaef6a86c2990800000000000000
+      internalID: -7409432220484611030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 2556
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b48b1e8ad415edb0800000000000000
+      internalID: -4763378101954837327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_31
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 2556
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ea2537bcfdb7850800000000000000
+      internalID: 6375935762379222584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_32
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 2556
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb9456816bc73900800000000000000
+      internalID: 664223089786395624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_33
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 2556
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063fe79ce9351c3b0800000000000000
+      internalID: -5494018128964816032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_34
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 2556
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce991095991e7b70800000000000000
+      internalID: 8898578043889098444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1917
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6ff6c375d39aff0800000000000000
+      internalID: -24420878088407316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_36
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1917
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a5a9bc6dde5cdc0800000000000000
+      internalID: -3619225218727650671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_37
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1917
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a225818940aa3e70800000000000000
+      internalID: 9095758634994180776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_38
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1917
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325be55245298bd00800000000000000
+      internalID: 988701008309695779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_39
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1917
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aef6103a0e720c70800000000000000
+      internalID: 8935843192878071461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_40
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 1917
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cea3b48a5510cd0800000000000000
+      internalID: -2593697729083675506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_41
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 1917
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fec8e02efba1b9f0800000000000000
+      internalID: -454392979425538313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1278
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d8dd2d92b000ee0800000000000000
+      internalID: -1297024418423403197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_43
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1278
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4794a9ad974f1f0800000000000000
+      internalID: -1012050036453182248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_44
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1278
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9ec5ebadaada7c0800000000000000
+      internalID: -4058399832717596235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_45
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1278
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a26aefbd99917e0800000000000000
+      internalID: -1794233806381241703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_46
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1278
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fced5d2e8eaeb70800000000000000
+      internalID: 8929205272163831695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_47
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 1278
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75c62a63a045f8d0800000000000000
+      internalID: -2813271321618233988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_48
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 1278
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345d21e0ac334f8a0800000000000000
+      internalID: -6272331438107732669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88313588def3ef520800000000000000
+      internalID: 2737695912914785160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_50
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 639
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92793440095eea60800000000000000
+      internalID: 7705193870156984991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 639
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40118b2b8e838c10800000000000000
+      internalID: 2054642583392555087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_52
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 639
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6b39ae25d4f0b70800000000000000
+      internalID: 8867391209834002106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_53
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 639
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748fe5d11710ea720800000000000000
+      internalID: 2859224398762539079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_54
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 639
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba718c1b609f82e40800000000000000
+      internalID: 5632025141174605739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_55
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 639
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9b10252dbc5ec80800000000000000
+      internalID: -8293999034553484862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8859e3bc4444300800000000000000
+      internalID: 235388720249145532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_57
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 0
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1504c4f5b8f20200800000000000000
+      internalID: 144951598408533277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722a21a6a51966b40800000000000000
+      internalID: 5433189817981772327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_59
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 0
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195f88f41e2881cd0800000000000000
+      internalID: -2587174081710721647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burningSheet_60
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 0
+        width: 729
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4829547ff954f180800000000000000
+      internalID: -9082535594795915188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

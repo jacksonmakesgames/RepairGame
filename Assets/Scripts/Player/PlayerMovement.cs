@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     float jumpForce;
 
+    public bool canMove = true;
     private void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
@@ -45,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Move()
     {
+        
         float move = Input.GetAxisRaw("Horizontal");
         if (move != 0){
             boxCollider.sharedMaterial = noFriction;
@@ -86,7 +88,9 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        Move();
+        if (canMove)
+            Move();
+        else { rb.velocity = new Vector2(0, rb.velocity.y); }
         
         animator.SetFloat("VelocityX", Mathf.Abs(rb.velocity.x));
         animator.SetFloat("VelocityY", rb.velocity.y);

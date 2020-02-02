@@ -66,6 +66,7 @@ public class Player : MonoBehaviour
     }
 
     public void removeHealth(int amt) {
+        print("player hit, " + health.ToString() + " health left");
         health -= amt;
         if (health < 0) Die();
     }

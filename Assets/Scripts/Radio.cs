@@ -34,7 +34,7 @@ public class Radio : Interactable
 
     public void Damage() {
         health -= 10;
-
+        print("radio hit");
         if (health <= 0)
         {
             print("radio destroyed");
