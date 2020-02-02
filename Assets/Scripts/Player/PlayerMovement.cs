@@ -90,18 +90,28 @@ public class PlayerMovement : MonoBehaviour
     {
         if (canMove)
             Move();
-        else { rb.velocity = new Vector2(0, rb.velocity.y); }
+            
+        else { rb.velocity = new Vector2(0, rb.velocity.y); boxCollider.sharedMaterial = originalPhysicsMaterial; }
         
         animator.SetFloat("VelocityX", Mathf.Abs(rb.velocity.x));
         animator.SetFloat("VelocityY", rb.velocity.y);
-        spriteRenderer.flipX = velocity.x < 0;
+
+        //spriteRenderer.flipX = velocity.x < 0;
+        spriteRenderer.flipX = Camera.main.ScreenToWorldPoint(Input.mousePosition).x < transform.position.x;
+      
 
         //grounded:
-        isGrounded = Physics2D.OverlapCircle(transform.position + new Vector3(groundCheck.offset.x, groundCheck.offset.y, 0), groundCheck.radius, groundMask);
+        isGrounded = Physics2D.OverlapCircleAll(transform.position + new Vector3(0, -.3f, 0), groundCheck.radius, groundMask).Length>0;
 
         animator.SetBool("Grounded", isGrounded);
     }
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        //Gizmos.DrawWireSphere(transform.position + new Vector3(0, -.3f, 0), groundCheck.radius);
+    }
 
-   
+
+
 }
