@@ -10,13 +10,17 @@ public class ScrapIndicator : MonoBehaviour
 
     SpriteRenderer spriteRenderer;
 
+    public Animator anim;
+
     private void Awake()
     {
         Instance = this;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     public void UpdateScrap(int amt) {
+        anim.SetBool("Show", true);
         spriteRenderer.sprite = sprites[amt];
     }
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -50,6 +51,7 @@ public class Player : MonoBehaviour
                 closestCol.GetComponent<Interactable>().Interact();
             }
         }
+        CheckInRange();
         
     }
 
@@ -75,14 +77,51 @@ public class Player : MonoBehaviour
         if (health > maxHealth) health = maxHealth;
     }
     
-    private void OnDrawGizmos()
+   
+
+    private void Die()
     {
-        Gizmos.color = Color.white;
-        Gizmos.DrawWireSphere(transform.position, interactRange);
+        print("Player Died");
+        GameObject.FindGameObjectWithTag("LoseScreen").GetComponent<EndScreen>().Lose();
     }
 
-    private void Die() {
-        print("Player Died");
+    public void CheckInRange() {
+        Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, interactRange);
+        if (cols.Length == 0) return;
+        float minDist = 10000;
+        Collider2D closestCol = cols[0];
+        bool found = false;
+        foreach (Collider2D collider in cols)
+        {
+            if (collider.GetComponent<Interactable>() == null)
+            {
+                continue;
+            }
+            float thisDist = Vector2.Distance(transform.position, collider.gameObject.transform.position);
+            if (thisDist < minDist)
+            {
+                minDist = thisDist;
+                closestCol = collider;
+            }
+        }
+        if (closestCol.GetComponent<Interactable>() != null)
+        {
+            found = true;
+        }
+        if (found && closestCol.GetComponent<Interactable>().canInteract)
+        {
+            InteractPrompt.Instance.Show();
+        }
+        else {
+            InteractPrompt.Instance.Hide();
+
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, interactRange);
     }
 
 }

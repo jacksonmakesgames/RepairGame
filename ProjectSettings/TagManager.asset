@@ -9,6 +9,7 @@ TagManager:
   - Break Point
   - Shield
   - Radio
+  - LoseScreen
   layers:
   - Default
   - TransparentFX

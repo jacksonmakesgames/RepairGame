@@ -52,6 +52,7 @@ public class ShieldGenerator : Interactable
     }
     private void FinishRepair() {
         print("Done repairing gen");
+        repaired = true;
     }
 
     private void ActivateShield() {

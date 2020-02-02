@@ -251,9 +251,9 @@ MonoBehaviour:
   fadeLength: 0.017
   namedTracks:
   - name: Main Menu
-    track: {fileID: 8300000, guid: 1b7ba805ffe9b1d44976c15205706a30, type: 3}
+    track: {fileID: 8300000, guid: 70f25f4334844484488e124c731bd93a, type: 3}
   - name: Game
-    track: {fileID: 8300000, guid: 0662b752cfa4a8f458223c4c55f510c3, type: 3}
+    track: {fileID: 8300000, guid: 3f1d02b255483b14a838fc26e57102d1, type: 3}
   maxVolume: 0.75
 --- !u!82 &120238087
 AudioSource:

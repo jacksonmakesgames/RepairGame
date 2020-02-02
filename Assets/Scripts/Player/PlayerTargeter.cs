@@ -41,9 +41,11 @@ public class PlayerTargeter : MonoBehaviour
         joyInput = new Vector2(Input.GetAxis("JoystickLookX"), Input.GetAxis("JoystickLookY"));
         if (Input.GetButton("Fire1") || joyInput.magnitude > 0.1f)
         {
-            GetComponent<PlayerMovement>().canMove = false;
+           GetComponent<PlayerMovement>().canMove = false;
+           
+            ScrapIndicator.Instance.anim.SetBool("Show", true);
 
-           GetComponent<Animator>().SetBool("Repairing", true);
+            GetComponent<Animator>().SetBool("Repairing", true);
             if (GetComponent<SpriteRenderer>().flipX)
                 polygonCollider.transform.localPosition = beamStartPos - new Vector3(.2f, 0.0f);
             else
@@ -66,6 +68,8 @@ public class PlayerTargeter : MonoBehaviour
             GetComponent<PlayerMovement>().canMove = true;
            
             GetComponent<Animator>().SetBool("Repairing", false);
+            ScrapIndicator.Instance.anim.SetBool("Show", false);
+
 
             return;
         }

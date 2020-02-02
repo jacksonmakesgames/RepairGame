@@ -1,0 +1,1555 @@
+fileFormatVersion: 2
+guid: 862a6b36a7b934148a1137cff59a3010
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -820902546227032200
+    second: emptyShieldSheet_0
+  - first:
+      213: 3078874058457280426
+    second: emptyShieldSheet_1
+  - first:
+      213: 683602260788557326
+    second: emptyShieldSheet_2
+  - first:
+      213: 6587215270462460890
+    second: emptyShieldSheet_3
+  - first:
+      213: 597666380928779133
+    second: emptyShieldSheet_4
+  - first:
+      213: -8772423266895887514
+    second: emptyShieldSheet_5
+  - first:
+      213: -2672522127590952846
+    second: emptyShieldSheet_6
+  - first:
+      213: 8905912034145450700
+    second: emptyShieldSheet_7
+  - first:
+      213: -3468792004520208816
+    second: emptyShieldSheet_8
+  - first:
+      213: -3732780943550774716
+    second: emptyShieldSheet_9
+  - first:
+      213: 398219143523321037
+    second: emptyShieldSheet_10
+  - first:
+      213: -8257049432481066340
+    second: emptyShieldSheet_11
+  - first:
+      213: -4013954971466100097
+    second: emptyShieldSheet_12
+  - first:
+      213: 6928415775478028359
+    second: emptyShieldSheet_13
+  - first:
+      213: -3630933427626231332
+    second: emptyShieldSheet_14
+  - first:
+      213: 1847002559998030915
+    second: emptyShieldSheet_15
+  - first:
+      213: 8250685243477099235
+    second: emptyShieldSheet_16
+  - first:
+      213: 3816685005173328851
+    second: emptyShieldSheet_17
+  - first:
+      213: 7598227804370699683
+    second: emptyShieldSheet_18
+  - first:
+      213: 4454343898018233325
+    second: emptyShieldSheet_19
+  - first:
+      213: 2134012298852103435
+    second: emptyShieldSheet_20
+  - first:
+      213: -1668740226130203763
+    second: emptyShieldSheet_21
+  - first:
+      213: -3900525108661435585
+    second: emptyShieldSheet_22
+  - first:
+      213: 8632968036937051892
+    second: emptyShieldSheet_23
+  - first:
+      213: 8486405956292945447
+    second: emptyShieldSheet_24
+  - first:
+      213: 7214701506183564207
+    second: emptyShieldSheet_25
+  - first:
+      213: 4750629569845049374
+    second: emptyShieldSheet_26
+  - first:
+      213: 6098310721591351845
+    second: emptyShieldSheet_27
+  - first:
+      213: 8880776701857507010
+    second: emptyShieldSheet_28
+  - first:
+      213: 5325614968734784129
+    second: emptyShieldSheet_29
+  - first:
+      213: -7775090005382050315
+    second: emptyShieldSheet_30
+  - first:
+      213: -8437858458876629286
+    second: emptyShieldSheet_31
+  - first:
+      213: 222817316649813027
+    second: emptyShieldSheet_32
+  - first:
+      213: 8458929288962208821
+    second: emptyShieldSheet_33
+  - first:
+      213: 2477535683422290965
+    second: emptyShieldSheet_34
+  - first:
+      213: -3754237743122974145
+    second: emptyShieldSheet_35
+  - first:
+      213: -8145294111820903743
+    second: emptyShieldSheet_36
+  - first:
+      213: 1171089879719852222
+    second: emptyShieldSheet_37
+  - first:
+      213: -7027186375664415518
+    second: emptyShieldSheet_38
+  - first:
+      213: 2946742064144484545
+    second: emptyShieldSheet_39
+  - first:
+      213: 1693290762432726186
+    second: emptyShieldSheet_40
+  - first:
+      213: -9148929131681893597
+    second: emptyShieldSheet_41
+  - first:
+      213: -8539481520113289253
+    second: emptyShieldSheet_42
+  - first:
+      213: -2882160364504524883
+    second: emptyShieldSheet_43
+  - first:
+      213: 7176228968659207797
+    second: emptyShieldSheet_44
+  - first:
+      213: -3453151349215454241
+    second: emptyShieldSheet_45
+  - first:
+      213: -4923652821267010139
+    second: emptyShieldSheet_46
+  - first:
+      213: 322579624406290257
+    second: emptyShieldSheet_47
+  - first:
+      213: 5381006548980566217
+    second: emptyShieldSheet_48
+  - first:
+      213: -1898096419720553188
+    second: emptyShieldSheet_49
+  - first:
+      213: 4147884383243358799
+    second: emptyShieldSheet_50
+  - first:
+      213: 6572523670975106904
+    second: emptyShieldSheet_51
+  - first:
+      213: -8399972849146914445
+    second: emptyShieldSheet_52
+  - first:
+      213: -6010590677781606711
+    second: emptyShieldSheet_53
+  - first:
+      213: 5390641089311873471
+    second: emptyShieldSheet_54
+  - first:
+      213: 2996724038107915186
+    second: emptyShieldSheet_55
+  - first:
+      213: -4146628895198319472
+    second: emptyShieldSheet_56
+  - first:
+      213: 4921115109520749520
+    second: emptyShieldSheet_57
+  - first:
+      213: 2578032535720404162
+    second: emptyShieldSheet_58
+  - first:
+      213: -6047824870267477006
+    second: emptyShieldSheet_59
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: emptyShieldSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f8ce8cb719b94f0800000000000000
+      internalID: -820902546227032200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafe282c4ab5aba20800000000000000
+      internalID: 3078874058457280426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06b4f162a4ac7900800000000000000
+      internalID: 683602260788557326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad391fe436d7a6b50800000000000000
+      internalID: 6587215270462460890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73047928665b4800800000000000000
+      internalID: 597666380928779133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6638c4d5487124680800000000000000
+      internalID: -8772423266895887514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270f19ad84b49ead0800000000000000
+      internalID: -2672522127590952846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccabd1c3fc7289b70800000000000000
+      internalID: 8905912034145450700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0569bd2ec006cdfc0800000000000000
+      internalID: -3468792004520208816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4420f4b428f723cc0800000000000000
+      internalID: -3732780943550774716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4c7708332c68500800000000000000
+      internalID: 398219143523321037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_11
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c921024f941196d80800000000000000
+      internalID: -8257049432481066340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72995568319b48c0800000000000000
+      internalID: -4013954971466100097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_13
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7489491807da62060800000000000000
+      internalID: 6928415775478028359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd93f3bf8455c9dc0800000000000000
+      internalID: -3630933427626231332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3447befda0fd1a910800000000000000
+      internalID: 1847002559998030915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e28203d382508270800000000000000
+      internalID: 8250685243477099235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db8ae06ac697f430800000000000000
+      internalID: 3816685005173328851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a503025ee3527960800000000000000
+      internalID: 7598227804370699683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_19
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb3ec4dc2201dd30800000000000000
+      internalID: 4454343898018233325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05f46b11e88d9d10800000000000000
+      internalID: 2134012298852103435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8baa1f0b9177d8e0800000000000000
+      internalID: -1668740226130203763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f334ebc541d8ed9c0800000000000000
+      internalID: -3900525108661435585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe2feea0b67ec770800000000000000
+      internalID: 8632968036937051892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_24
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726a99c1145c5c570800000000000000
+      internalID: 8486405956292945447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_25
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab0c847bc4cf1460800000000000000
+      internalID: 7214701506183564207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18b4128c60ade140800000000000000
+      internalID: 4750629569845049374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_27
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a98628a4d81a450800000000000000
+      internalID: 6098310721591351845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c628c3ab5bde3b70800000000000000
+      internalID: 8880776701857507010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a90f5099268e940800000000000000
+      internalID: 5325614968734784129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd438495d4591490800000000000000
+      internalID: -7775090005382050315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade22a5ff64b6ea80800000000000000
+      internalID: -8437858458876629286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324c7b04b2b971300800000000000000
+      internalID: 222817316649813027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_33
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5347db8fe57246570800000000000000
+      internalID: 8458929288962208821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5148db8d399f16220800000000000000
+      internalID: 2477535683422290965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a7ac6d9a446ebc0800000000000000
+      internalID: -3754237743122974145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_36
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca85d1392a16fe80800000000000000
+      internalID: -8145294111820903743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_37
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8b1c87a0c804010800000000000000
+      internalID: 1171089879719852222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecce04193b6a7e90800000000000000
+      internalID: -7027186375664415518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8880a7b4ee4e820800000000000000
+      internalID: 2946742064144484545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_40
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4c04c1af6cf7710800000000000000
+      internalID: 1693290762432726186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_41
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323b0e68d69780180800000000000000
+      internalID: -9148929131681893597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd772a33dcaad7980800000000000000
+      internalID: -8539481520113289253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_43
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da75ff73b628008d0800000000000000
+      internalID: -2882160364504524883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_44
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576ccc7c936179360800000000000000
+      internalID: 7176228968659207797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_45
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb1a5ab421f310d0800000000000000
+      internalID: -3453151349215454241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_46
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ada70f78dbababb0800000000000000
+      internalID: -4923652821267010139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_47
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f048495780a7400800000000000000
+      internalID: 322579624406290257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_48
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8890e42fc2daa40800000000000000
+      internalID: 5381006548980566217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d9d11ec5b98a5e0800000000000000
+      internalID: -1898096419720553188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f425c90cede309930800000000000000
+      internalID: 4147884383243358799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f415eb47b463b50800000000000000
+      internalID: 6572523670975106904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_52
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3791cabd23d4d6b80800000000000000
+      internalID: -8399972849146914445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_53
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce8d80cf97169ca0800000000000000
+      internalID: -6010590677781606711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_54
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb91f0882876fca40800000000000000
+      internalID: 5390641089311873471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_55
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3eb45a2a0869920800000000000000
+      internalID: 2996724038107915186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c65565df63476c0800000000000000
+      internalID: -4146628895198319472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3bac17e105b4440800000000000000
+      internalID: 4921115109520749520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_58
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4a307aee207c320800000000000000
+      internalID: 2578032535720404162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emptyShieldSheet_59
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f32fefb25fc11ca0800000000000000
+      internalID: -6047824870267477006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
