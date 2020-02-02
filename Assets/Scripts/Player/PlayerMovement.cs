@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
         //jump
         if (isGrounded) {
             if (Input.GetButtonDown("Jump")) {
-                rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+                rb.velocity = (new Vector3(rb.velocity.x, jumpForce, 0 ));
             }
         }
     }

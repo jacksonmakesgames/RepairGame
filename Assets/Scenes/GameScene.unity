@@ -637,7 +637,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260531253}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 944024219}
@@ -843,7 +843,7 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   debug: 0
   moveSpeed: 3
-  jumpForce: 5
+  jumpForce: 10
 --- !u!95 &384951633
 Animator:
   serializedVersion: 3
@@ -2692,7 +2692,7 @@ MonoBehaviour:
   alertPrefab: {fileID: 5879307349790458629, guid: 3e811d314d37f2644b50fca96b5f1045,
     type: 3}
   spawnRatePerSecond: 1
-  spawnAngleArc: 150
+  spawnAngleArc: 120
   spawnRadius: 20
   showDebug: 0
 --- !u!1 &1974153677
