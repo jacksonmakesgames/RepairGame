@@ -20,6 +20,7 @@ public class PlayerTargeter : MonoBehaviour
     private Vector2 joyInput;
     private Vector3 beamStartPos;
 
+
     // Start is called before the first frame update
     void Awake(){
         polygonCollider = GetComponentInChildren<PolygonCollider2D>();
@@ -41,6 +42,13 @@ public class PlayerTargeter : MonoBehaviour
         if (Input.GetButton("Fire1") || joyInput.magnitude > 0.1f)
         {
             GetComponent<PlayerMovement>().canMove = false;
+
+           GetComponent<Animator>().SetBool("Repairing", true);
+            if (GetComponent<SpriteRenderer>().flipX)
+                polygonCollider.transform.localPosition = beamStartPos - new Vector3(.2f, 0.0f);
+            else
+                polygonCollider.transform.localPosition = beamStartPos;
+
             spriteRenderer.enabled = true;
             Vector3 input = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
             Vector3 lookPos = Camera.main.ScreenToWorldPoint(input);
@@ -56,6 +64,8 @@ public class PlayerTargeter : MonoBehaviour
         }
         else {
             GetComponent<PlayerMovement>().canMove = true;
+           
+            GetComponent<Animator>().SetBool("Repairing", false);
 
             return;
         }

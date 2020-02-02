@@ -19,6 +19,7 @@ public class Stairs : MonoBehaviour
 
     void Update()
     {
+        if (!Player.Instance.GetComponent<PlayerMovement>().canMove) return;
         if (Input.GetButtonUp("Down")) {
             currentWaitTime = waitTime;
             effector.rotationalOffset = originalOffset;

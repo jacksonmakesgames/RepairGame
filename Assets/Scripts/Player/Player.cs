@@ -56,13 +56,13 @@ public class Player : MonoBehaviour
     public void removeScrap(int amt) {
         nScrapHeld -= amt;
         if (nScrapHeld < 0) nScrapHeld = 0;
-        scrapText.text = "Scrap: " + nScrapHeld.ToString();
+        ScrapIndicator.Instance.UpdateScrap(nScrapHeld);
 
     }
     public void addScap(int amt) {
         nScrapHeld += amt;
         if (nScrapHeld > maxScapHeld) nScrapHeld = maxScapHeld;
-        scrapText.text = "Scrap: " + nScrapHeld.ToString();
+        ScrapIndicator.Instance.UpdateScrap(nScrapHeld);
     }
 
     public void removeHealth(int amt) {
@@ -84,4 +84,5 @@ public class Player : MonoBehaviour
     private void Die() {
         print("Player Died");
     }
+
 }
