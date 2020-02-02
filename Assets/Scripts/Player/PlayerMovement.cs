@@ -5,6 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(Player))]
 public class PlayerMovement : MonoBehaviour
 {
+    public AudioClip[] footsteps;
+
+
     [SerializeField]
     LayerMask groundMask;
 
@@ -44,12 +47,21 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         originalPhysicsMaterial = boxCollider.sharedMaterial;
     }
+
+    float timeLastStep = 0.0f;
+    public float timeBetweenSteps;
     public void Move()
     {
         
         float move = Input.GetAxisRaw("Horizontal");
         if (move != 0){
             boxCollider.sharedMaterial = noFriction;
+            if (isGrounded && Time.time > timeBetweenSteps + timeLastStep) {
+                timeLastStep = Time.time;
+                GetComponent<AudioSource>().clip = footsteps[Random.Range(0,footsteps.Length)];
+                GetComponent<AudioSource>().Play();
+
+            }
         }
         else {
             boxCollider.sharedMaterial = originalPhysicsMaterial;

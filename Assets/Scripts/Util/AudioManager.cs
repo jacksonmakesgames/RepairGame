@@ -87,8 +87,16 @@ public class AudioManager : MonoBehaviour
         
     }
 
+    public void FadeInStart() { StartCoroutine("FadeIn"); }
+    public void FadeOutStart() { StartCoroutine("FadeOut"); }
+
     void Update()
     {
         
+    }
+
+    public void SetClip(AudioClip clip) {
+        source.clip = clip;
+        source.Play();
     }
 }

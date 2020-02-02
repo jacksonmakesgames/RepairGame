@@ -1,7 +1,187 @@
 fileFormatVersion: 2
 guid: e432e7b9e7700bc46bceee1c6647101a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8985775044275052413
+    second: threeShieldSheet_0
+  - first:
+      213: -6137215969684876579
+    second: threeShieldSheet_1
+  - first:
+      213: -7499325033659989640
+    second: threeShieldSheet_2
+  - first:
+      213: 8716181551588849662
+    second: threeShieldSheet_3
+  - first:
+      213: 4416218829821628524
+    second: threeShieldSheet_4
+  - first:
+      213: 433954475173991357
+    second: threeShieldSheet_5
+  - first:
+      213: 3525301262004770351
+    second: threeShieldSheet_6
+  - first:
+      213: 3351082812655616495
+    second: threeShieldSheet_7
+  - first:
+      213: 4526787296511608959
+    second: threeShieldSheet_8
+  - first:
+      213: -2265752640092448820
+    second: threeShieldSheet_9
+  - first:
+      213: 2848933553129928876
+    second: threeShieldSheet_10
+  - first:
+      213: -6443380314905232866
+    second: threeShieldSheet_11
+  - first:
+      213: -3708163552708853235
+    second: threeShieldSheet_12
+  - first:
+      213: -5903416680813804739
+    second: threeShieldSheet_13
+  - first:
+      213: 8507312167041971135
+    second: threeShieldSheet_14
+  - first:
+      213: 5364294020720813283
+    second: threeShieldSheet_15
+  - first:
+      213: 709561578204262928
+    second: threeShieldSheet_16
+  - first:
+      213: 3633837110535037731
+    second: threeShieldSheet_17
+  - first:
+      213: -3314612190979336221
+    second: threeShieldSheet_18
+  - first:
+      213: 8227740041437989939
+    second: threeShieldSheet_19
+  - first:
+      213: 5693353555507889187
+    second: threeShieldSheet_20
+  - first:
+      213: 6904222924031798715
+    second: threeShieldSheet_21
+  - first:
+      213: -4930466510721979270
+    second: threeShieldSheet_22
+  - first:
+      213: 7326795886987816800
+    second: threeShieldSheet_23
+  - first:
+      213: 4599329782824152790
+    second: threeShieldSheet_24
+  - first:
+      213: -3029277845852593983
+    second: threeShieldSheet_25
+  - first:
+      213: -5657716298622398889
+    second: threeShieldSheet_26
+  - first:
+      213: -891422085131885771
+    second: threeShieldSheet_27
+  - first:
+      213: 3139463364880191703
+    second: threeShieldSheet_28
+  - first:
+      213: -249463387933511163
+    second: threeShieldSheet_29
+  - first:
+      213: -8283913659754242072
+    second: threeShieldSheet_30
+  - first:
+      213: 8072780829744339619
+    second: threeShieldSheet_31
+  - first:
+      213: 3617596994292536361
+    second: threeShieldSheet_32
+  - first:
+      213: 4777589527576812835
+    second: threeShieldSheet_33
+  - first:
+      213: -1439181580446017179
+    second: threeShieldSheet_34
+  - first:
+      213: -2294246287704458570
+    second: threeShieldSheet_35
+  - first:
+      213: -8392955170176151867
+    second: threeShieldSheet_36
+  - first:
+      213: 8569602207203518257
+    second: threeShieldSheet_37
+  - first:
+      213: 3523599554917472839
+    second: threeShieldSheet_38
+  - first:
+      213: 7723648376299957982
+    second: threeShieldSheet_39
+  - first:
+      213: 613442971508920721
+    second: threeShieldSheet_40
+  - first:
+      213: -6645859581153973827
+    second: threeShieldSheet_41
+  - first:
+      213: -8724687969317638636
+    second: threeShieldSheet_42
+  - first:
+      213: 1904781774768680247
+    second: threeShieldSheet_43
+  - first:
+      213: 2761482140478204653
+    second: threeShieldSheet_44
+  - first:
+      213: 5002605706449115637
+    second: threeShieldSheet_45
+  - first:
+      213: 2882769885744766508
+    second: threeShieldSheet_46
+  - first:
+      213: 2538898564958774006
+    second: threeShieldSheet_47
+  - first:
+      213: 124406484718729924
+    second: threeShieldSheet_48
+  - first:
+      213: -7384652059139828497
+    second: threeShieldSheet_49
+  - first:
+      213: 6426663432622980788
+    second: threeShieldSheet_50
+  - first:
+      213: -1425069029835733227
+    second: threeShieldSheet_51
+  - first:
+      213: -4893965489531212973
+    second: threeShieldSheet_52
+  - first:
+      213: -8417141431414260654
+    second: threeShieldSheet_53
+  - first:
+      213: -1799739232057813078
+    second: threeShieldSheet_54
+  - first:
+      213: -3855044351049468487
+    second: threeShieldSheet_55
+  - first:
+      213: 373812180772893408
+    second: threeShieldSheet_56
+  - first:
+      213: -3979143484389391630
+    second: threeShieldSheet_57
+  - first:
+      213: -2372074389318913480
+    second: threeShieldSheet_58
+  - first:
+      213: 4983312319202506580
+    second: threeShieldSheet_59
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +220,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +250,1293 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: threeShieldSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3806a66b43d1c4380800000000000000
+      internalID: -8985775044275052413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd21419879a34daa0800000000000000
+      internalID: -6137215969684876579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87180817d9b0de790800000000000000
+      internalID: -7499325033659989640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7344cd0f816f870800000000000000
+      internalID: 8716181551588849662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60d8e9a0af894d30800000000000000
+      internalID: 4416218829821628524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3df65cb47b50600800000000000000
+      internalID: 433954475173991357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26d708e1d26ce030800000000000000
+      internalID: 3525301262004770351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe141453010718e20800000000000000
+      internalID: 3351082812655616495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78435eef0162de30800000000000000
+      internalID: 4526787296511608959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7d2627afd6e80e0800000000000000
+      internalID: -2265752640092448820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca83007e8f1798720800000000000000
+      internalID: 2848933553129928876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_11
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a3459fdb38496a0800000000000000
+      internalID: -6443380314905232866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d020dbf35e4f98cc0800000000000000
+      internalID: -3708163552708853235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_13
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d334af27ec9d21ea0800000000000000
+      internalID: -5903416680813804739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb335ed975b001670800000000000000
+      internalID: 8507312167041971135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4e0d79dfcc17a40800000000000000
+      internalID: 5364294020720813283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0127127fe7ed8d900800000000000000
+      internalID: 709561578204262928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323a211699bfd6230800000000000000
+      internalID: 3633837110535037731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e75f7c16c12002d0800000000000000
+      internalID: -3314612190979336221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_19
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c4b2aa9fdce2270800000000000000
+      internalID: 8227740041437989939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32441c0e4ead20f40800000000000000
+      internalID: 5693353555507889187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd26055b2ab0df50800000000000000
+      internalID: 6904222924031798715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ce47bc4d6739bb0800000000000000
+      internalID: -4930466510721979270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fa3b94a020ea560800000000000000
+      internalID: 7326795886987816800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_24
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deab16b11a14df30800000000000000
+      internalID: 4599329782824152790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_25
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0eef759d7d5f5d0800000000000000
+      internalID: -3029277845852593983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e8ca49001cb71b0800000000000000
+      internalID: -5657716298622398889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_27
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533a6c6265801a3f0800000000000000
+      internalID: -891422085131885771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d05909fb4d919b20800000000000000
+      internalID: 3139463364880191703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502f1c1de5ab98cf0800000000000000
+      internalID: -249463387933511163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef9750aa60a90d80800000000000000
+      internalID: -8283913659754242072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa9e7aa467480070800000000000000
+      internalID: 8072780829744339619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924d359ac49443230800000000000000
+      internalID: 3617596994292536361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_33
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d97d1dc586d4240800000000000000
+      internalID: 4777589527576812835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569da3a4afff60ce0800000000000000
+      internalID: -1439181580446017179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bafd1228233920e0800000000000000
+      internalID: -2294246287704458570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_36
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce4fd19dbb368b80800000000000000
+      internalID: -8392955170176151867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_37
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137e4c2cdc75de670800000000000000
+      internalID: 8569602207203518257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a9499502756e030800000000000000
+      internalID: 3523599554917472839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edea16fc649ef2b60800000000000000
+      internalID: 7723648376299957982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_40
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191dfb6e123638800800000000000000
+      internalID: 613442971508920721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_41
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9e0361ce925c3a0800000000000000
+      internalID: -6645859581153973827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ea2bc648eabe680800000000000000
+      internalID: -8724687969317638636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_43
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73da9b3aee42f6a10800000000000000
+      internalID: 1904781774768680247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_44
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deae9c43061c25620800000000000000
+      internalID: 2761482140478204653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_45
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9dd349263dc6540800000000000000
+      internalID: 5002605706449115637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_46
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e920100f7a10820800000000000000
+      internalID: 2882769885744766508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_47
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2ed1d0bcafb3320800000000000000
+      internalID: 2538898564958774006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_48
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca3a69e90bf9b100800000000000000
+      internalID: 124406484718729924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe41d19e312748990800000000000000
+      internalID: -7384652059139828497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be3c709758103950800000000000000
+      internalID: 6426663432622980788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5170b388443293ce0800000000000000
+      internalID: -1425069029835733227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_52
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ba87d0154251cb0800000000000000
+      internalID: -4893965489531212973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_53
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c745cc67e403b80800000000000000
+      internalID: -8417141431414260654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_54
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa71cd034ba0607e0800000000000000
+      internalID: -1799739232057813078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_55
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5f15e6691208ac0800000000000000
+      internalID: -3855044351049468487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2bea7a23c003500800000000000000
+      internalID: 373812180772893408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f209a6551e37c8c0800000000000000
+      internalID: -3979143484389391630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_58
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83238d329e2b41fd0800000000000000
+      internalID: -2372074389318913480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: threeShieldSheet_59
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457b4eec628482540800000000000000
+      internalID: 4983312319202506580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

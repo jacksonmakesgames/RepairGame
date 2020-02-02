@@ -35,7 +35,7 @@ public class Missile : MonoBehaviour
     {
         createdTime = Time.time;
 
-        target = MissleSpawner.Instance.transform.position;
+        target = MissileSpawner.Instance.transform.position;
         rb = GetComponent<Rigidbody2D>();
 
         var locVel = transform.InverseTransformDirection(target - transform.position).normalized;

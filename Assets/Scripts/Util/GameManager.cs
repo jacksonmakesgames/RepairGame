@@ -20,10 +20,10 @@ public class GameManager : MonoBehaviour
     {
         if (level == 0)
         {
-            AudioManager.Instance.FadeToNewClip(AudioManager.Instance.audioClips["Main Menu"]);
+            AudioManager.Instance.SetClip(AudioManager.Instance.audioClips["Main Menu"]);
         }
         if (level == 1) {
-            AudioManager.Instance.FadeToNewClip(AudioManager.Instance.audioClips["Game"]);
+            AudioManager.Instance.SetClip(AudioManager.Instance.audioClips["Game"]);
         }
     }
 
@@ -72,8 +72,10 @@ public class GameManager : MonoBehaviour
 
     IEnumerator LoadSceneEnum(int sceneIndex)
     {
+        AudioManager.Instance.FadeOutStart();
         yield return StartCoroutine(FadeIn());
         SceneManager.LoadScene(sceneIndex);
+        AudioManager.Instance.FadeInStart();
         yield return StartCoroutine(FadeOut());
 
     }

@@ -14,6 +14,10 @@ public class Player : MonoBehaviour
     public int maxHealth = 100;
     public int health;
 
+    public AudioClip getRepair;
+    public AudioClip removeRepair;
+
+
     [SerializeField]
     TextMeshProUGUI scrapText;
     
@@ -57,32 +61,39 @@ public class Player : MonoBehaviour
 
     public void removeScrap(int amt) {
         nScrapHeld -= amt;
+        GetComponent<AudioSource>().clip = removeRepair;
+        GetComponent<AudioSource>().Play();
         if (nScrapHeld < 0) nScrapHeld = 0;
         ScrapIndicator.Instance.UpdateScrap(nScrapHeld);
 
     }
     public void addScap(int amt) {
+        GetComponent<AudioSource>().clip = getRepair;
+
+        GetComponent<AudioSource>().Play();
         nScrapHeld += amt;
         if (nScrapHeld > maxScapHeld) nScrapHeld = maxScapHeld;
         ScrapIndicator.Instance.UpdateScrap(nScrapHeld);
     }
 
     public void removeHealth(int amt) {
-        print("player hit, " + health.ToString() + " health left");
         health -= amt;
         if (health < 0) Die();
+        print("player hit, " + health.ToString() + " health left");
+        HealthIndicator.Instance.UpdateHealth();
+
     }
     public void addHealth(int amt) {
         health += amt;
         if (health > maxHealth) health = maxHealth;
+        HealthIndicator.Instance.UpdateHealth();
     }
     
    
 
     private void Die()
     {
-        print("Player Died");
-        GameObject.FindGameObjectWithTag("LoseScreen").GetComponent<EndScreen>().Lose();
+       EndScreen.Instance.Lose();
     }
 
     public void CheckInRange() {

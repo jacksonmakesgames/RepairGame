@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class ShieldGenerator : Interactable
 {
-    public int totalRequiredScrap = 100;
+    public AnimatorOverrideController[] animatorOverrideControllers;
+
+    public int totalRequiredScrap = 20;
 
     public int currentScrap = 0;
 
@@ -20,9 +22,11 @@ public class ShieldGenerator : Interactable
     private SpriteRenderer renderer;
 
     bool hovered = false;
+    Animator anim;
     private void Awake()
     {
         renderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     public override void Interact(){
@@ -35,10 +39,9 @@ public class ShieldGenerator : Interactable
             {
                 Player.Instance.removeScrap(1);
                 currentScrap++;
-                if (currentScrap > totalRequiredScrap)
-                {
-                    FinishRepair();
-                }
+
+                UpdateAnim();
+              
             }
             else
             {
@@ -51,18 +54,38 @@ public class ShieldGenerator : Interactable
         }
     }
     private void FinishRepair() {
-        print("Done repairing gen");
         repaired = true;
     }
 
     private void ActivateShield() {
-        shieldObj.SetActive(true);
+        if (shieldObj.GetComponent<Shield>().on) return;
+        repaired = false;
+        currentScrap = 0;
+        UpdateAnim();
+        shieldObj.GetComponent<Shield>().TurnOn();
     }
     private void OnMouseDown()
     {
         Interact();
     }
 
+    void UpdateAnim() {
+        int index = 0;
+        if (currentScrap >= totalRequiredScrap / 4)
+            index = 1;
+        if (currentScrap >= totalRequiredScrap / 2)
+            index = 2;
+        if (currentScrap >= totalRequiredScrap)
+            index = 3;
+
+        if (currentScrap > totalRequiredScrap)
+        {
+            FinishRepair();
+        }
+
+        anim.runtimeAnimatorController = animatorOverrideControllers[index];
+        anim.Play("ShieldGen");
+    }
     private void OnMouseOver()
     {
         if ((Vector2.Distance(Player.Instance.transform.position, transform.position) <= Player.Instance.interactRange))
@@ -87,5 +110,12 @@ public class ShieldGenerator : Interactable
         hovered = false;
         Player.Instance.canBeam = true;
         renderer.color = Color.white;
+    }
+
+    public void Damage() {
+        print("gen damaged");
+        currentScrap--;
+        if (currentScrap < 0) currentScrap = 0;
+        UpdateAnim();
     }
 }

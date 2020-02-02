@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1893738860}
   - component: {fileID: 1596701738813487092}
   - component: {fileID: 1612336370516720863}
+  - component: {fileID: 968390222257796078}
   m_Layer: 12
   m_Name: Missile
   m_TagString: Missile
@@ -74,7 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 775a7097db22b4f4e91fd3aa4505d796, type: 3}
+  m_Sprite: {fileID: -4944302964254464469, guid: 6facf33bd08db714fb294d999cfb9ef9,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionEffect: {fileID: 5450049170326736377, guid: 745e5b68841c8e342bd57739b59b4190,
     type: 3}
-  speed: 6
+  speed: 20
   explosionSound: {fileID: 8300000, guid: 3f4b53c3ec7bba4409cbe1cc176e3e42, type: 3}
 --- !u!50 &1893738860
 Rigidbody2D:
@@ -139,7 +141,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.45, y: 1.06}
+    oldSize: {x: 2, y: 2.45}
     newSize: {x: 0.45, y: 1.06}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -244,3 +246,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &968390222257796078
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989633440859211745}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a27eb4a2fa52fae43a42ea4d94a070af, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

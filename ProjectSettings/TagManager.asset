@@ -10,6 +10,9 @@ TagManager:
   - Shield
   - Radio
   - LoseScreen
+  - MedKit
+  - ShieldGen
+  - Win
   layers:
   - Default
   - TransparentFX

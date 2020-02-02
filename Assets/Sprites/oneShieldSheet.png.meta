@@ -1,7 +1,187 @@
 fileFormatVersion: 2
 guid: 083df04217cdd1c4aa2fbb7c2421c001
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3945552085157782561
+    second: oneShieldSheet_0
+  - first:
+      213: -8306035522027667427
+    second: oneShieldSheet_1
+  - first:
+      213: -3804119994412760968
+    second: oneShieldSheet_2
+  - first:
+      213: -6542179553161501723
+    second: oneShieldSheet_3
+  - first:
+      213: -8427820451898410884
+    second: oneShieldSheet_4
+  - first:
+      213: 3932996894869631486
+    second: oneShieldSheet_5
+  - first:
+      213: 177753322771872281
+    second: oneShieldSheet_6
+  - first:
+      213: -2180836909171018173
+    second: oneShieldSheet_7
+  - first:
+      213: 729734512249670493
+    second: oneShieldSheet_8
+  - first:
+      213: -2715818813396867700
+    second: oneShieldSheet_9
+  - first:
+      213: 8071580544894471167
+    second: oneShieldSheet_10
+  - first:
+      213: 5707263973455210725
+    second: oneShieldSheet_11
+  - first:
+      213: 3723957110728323688
+    second: oneShieldSheet_12
+  - first:
+      213: 117741267226394263
+    second: oneShieldSheet_13
+  - first:
+      213: -6381056452749512825
+    second: oneShieldSheet_14
+  - first:
+      213: 7532191437866875003
+    second: oneShieldSheet_15
+  - first:
+      213: 4465665546989646662
+    second: oneShieldSheet_16
+  - first:
+      213: -5097371066209719548
+    second: oneShieldSheet_17
+  - first:
+      213: -2955813760243932452
+    second: oneShieldSheet_18
+  - first:
+      213: 8649043408567225395
+    second: oneShieldSheet_19
+  - first:
+      213: -2085147289191496099
+    second: oneShieldSheet_20
+  - first:
+      213: 3653890846868474779
+    second: oneShieldSheet_21
+  - first:
+      213: -1244714210540158566
+    second: oneShieldSheet_22
+  - first:
+      213: -4002301319267236542
+    second: oneShieldSheet_23
+  - first:
+      213: -7561168105986651405
+    second: oneShieldSheet_24
+  - first:
+      213: 1706759054537198414
+    second: oneShieldSheet_25
+  - first:
+      213: 5092522129169382893
+    second: oneShieldSheet_26
+  - first:
+      213: -1935388870044815281
+    second: oneShieldSheet_27
+  - first:
+      213: 6988015554227247295
+    second: oneShieldSheet_28
+  - first:
+      213: -763987760885681215
+    second: oneShieldSheet_29
+  - first:
+      213: 5397473599035937293
+    second: oneShieldSheet_30
+  - first:
+      213: 3798996668853297426
+    second: oneShieldSheet_31
+  - first:
+      213: -8111912031274686962
+    second: oneShieldSheet_32
+  - first:
+      213: 5076177948889669032
+    second: oneShieldSheet_33
+  - first:
+      213: -105446187174732760
+    second: oneShieldSheet_34
+  - first:
+      213: -6964665646362858965
+    second: oneShieldSheet_35
+  - first:
+      213: -5723966650413590623
+    second: oneShieldSheet_36
+  - first:
+      213: -7211830145886974879
+    second: oneShieldSheet_37
+  - first:
+      213: -3064261827875185527
+    second: oneShieldSheet_38
+  - first:
+      213: -5554488237734143818
+    second: oneShieldSheet_39
+  - first:
+      213: -869370801146723261
+    second: oneShieldSheet_40
+  - first:
+      213: -2729178416981509463
+    second: oneShieldSheet_41
+  - first:
+      213: -6745473476368712390
+    second: oneShieldSheet_42
+  - first:
+      213: -8271691626943941856
+    second: oneShieldSheet_43
+  - first:
+      213: 357173817196253263
+    second: oneShieldSheet_44
+  - first:
+      213: -75037099558581840
+    second: oneShieldSheet_45
+  - first:
+      213: 7883642871191593679
+    second: oneShieldSheet_46
+  - first:
+      213: -4421749044553984932
+    second: oneShieldSheet_47
+  - first:
+      213: -2013566311884948521
+    second: oneShieldSheet_48
+  - first:
+      213: 7218817270419218902
+    second: oneShieldSheet_49
+  - first:
+      213: -8994467109337435813
+    second: oneShieldSheet_50
+  - first:
+      213: 8495078341183897438
+    second: oneShieldSheet_51
+  - first:
+      213: -1880906949391050096
+    second: oneShieldSheet_52
+  - first:
+      213: -7194179827984891611
+    second: oneShieldSheet_53
+  - first:
+      213: 3560648347289192303
+    second: oneShieldSheet_54
+  - first:
+      213: 8575904525737437112
+    second: oneShieldSheet_55
+  - first:
+      213: -7040075803363693132
+    second: oneShieldSheet_56
+  - first:
+      213: -1610801938321940335
+    second: oneShieldSheet_57
+  - first:
+      213: -3709282703872334495
+    second: oneShieldSheet_58
+  - first:
+      213: 4155900292760171486
+    second: oneShieldSheet_59
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +220,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +250,1293 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: oneShieldSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb5e5178459e39c0800000000000000
+      internalID: -3945552085157782561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10c3c133b80bbc80800000000000000
+      internalID: -8306035522027667427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870011a250d053bc0800000000000000
+      internalID: -3804119994412760968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e32cfcbb528535a0800000000000000
+      internalID: -6542179553161501723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78b2d593fd5a0b80800000000000000
+      internalID: -8427820451898410884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef13b6586dfc49630800000000000000
+      internalID: 3932996894869631486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a767d84b1877200800000000000000
+      internalID: 177753322771872281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346fccbb26c1cb1e0800000000000000
+      internalID: -2180836909171018173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b0cfe2ca9802a00800000000000000
+      internalID: 729734512249670493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c852821ad297f4ad0800000000000000
+      internalID: -2715818813396867700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb83629db3040070800000000000000
+      internalID: 8071580544894471167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_11
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ae217856443f40800000000000000
+      internalID: 5707263973455210725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86270c703472ea330800000000000000
+      internalID: 3723957110728323688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_13
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79efe680f0d42a100800000000000000
+      internalID: 117741267226394263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fa62ae6fee177a0800000000000000
+      internalID: -6381056452749512825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b783b4a9438b78860800000000000000
+      internalID: 7532191437866875003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643b406a72b39fd30800000000000000
+      internalID: 4465665546989646662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b2736b5008249b0800000000000000
+      internalID: -5097371066209719548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2e27eab07daf6d0800000000000000
+      internalID: -2955813760243932452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_19
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c459ec723970870800000000000000
+      internalID: 8649043408567225395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d564f5b86911013e0800000000000000
+      internalID: -2085147289191496099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b85a7bd5a35b230800000000000000
+      internalID: 3653890846868474779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a918fd13503e9bee0800000000000000
+      internalID: -1244714210540158566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245cffcb728f478c0800000000000000
+      internalID: -4002301319267236542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_24
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa07ab1ba5511790800000000000000
+      internalID: -7561168105986651405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_25
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b0fda3150afa710800000000000000
+      internalID: 1706759054537198414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedf4f725e54ca640800000000000000
+      internalID: 5092522129169382893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_27
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40fbbaa31e1425e0800000000000000
+      internalID: -1935388870044815281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb89e9a5f1b6af060800000000000000
+      internalID: 6988015554227247295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3b9a3ed25c565f0800000000000000
+      internalID: -763987760885681215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02161b24ada7ea40800000000000000
+      internalID: 5397473599035937293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211a4e5a75fb8b430800000000000000
+      internalID: 3798996668853297426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06a7ae7cf2bc6f80800000000000000
+      internalID: -8111912031274686962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_33
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad5d3423f4327640800000000000000
+      internalID: 5076177948889669032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cd78e5041698ef0800000000000000
+      internalID: -105446187174732760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2aec29be79885f90800000000000000
+      internalID: -6964665646362858965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_36
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a75ae788a26090b0800000000000000
+      internalID: -5723966650413590623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_37
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c04f531be6aeb90800000000000000
+      internalID: -7211830145886974879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cd5ba4a1e8975d0800000000000000
+      internalID: -3064261827875185527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b855c0706e7ae2b0800000000000000
+      internalID: -5554488237734143818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_40
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3448d8bccdf5fe3f0800000000000000
+      internalID: -869370801146723261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_41
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa772780b2002ad0800000000000000
+      internalID: -2729178416981509463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d393fbc934362a0800000000000000
+      internalID: -6745473476368712390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_43
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023fe646a4c053d80800000000000000
+      internalID: -8271691626943941856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_44
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f409d01c1bfe4f400800000000000000
+      internalID: 357173817196253263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_45
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9c5dfc72a65fef0800000000000000
+      internalID: -75037099558581840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_46
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc26a690c63586d60800000000000000
+      internalID: 7883642871191593679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_47
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54df61ebaac2a2c0800000000000000
+      internalID: -4421749044553984932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_48
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db77609b106e04e0800000000000000
+      internalID: -2013566311884948521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1eacd7f046e2460800000000000000
+      internalID: 7218817270419218902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51f10c91db3d2380800000000000000
+      internalID: -8994467109337435813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f71611eb494e570800000000000000
+      internalID: 8495078341183897438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_52
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a9bf1581da5e5e0800000000000000
+      internalID: -1880906949391050096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_53
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5210ea61093292c90800000000000000
+      internalID: -7194179827984891611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_54
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6701468ec6f96130800000000000000
+      internalID: 3560648347289192303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_55
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7ae34aabbb30770800000000000000
+      internalID: 8575904525737437112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd2fa45b50ac4e90800000000000000
+      internalID: -7040075803363693132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1906fc6eb2845a9e0800000000000000
+      internalID: -1610801938321940335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_58
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1656030980bf58cc0800000000000000
+      internalID: -3709282703872334495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oneShieldSheet_59
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed379ef1c49bca930800000000000000
+      internalID: 4155900292760171486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

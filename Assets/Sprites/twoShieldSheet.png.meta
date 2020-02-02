@@ -1,7 +1,187 @@
 fileFormatVersion: 2
 guid: 36c07852bba54a54b9747330c07fb35f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6406384958408430556
+    second: twoShieldSheet_0
+  - first:
+      213: 7725642980449904222
+    second: twoShieldSheet_1
+  - first:
+      213: -111554069932578124
+    second: twoShieldSheet_2
+  - first:
+      213: -5568928315775423603
+    second: twoShieldSheet_3
+  - first:
+      213: 8833032609665581623
+    second: twoShieldSheet_4
+  - first:
+      213: -1885158505613652050
+    second: twoShieldSheet_5
+  - first:
+      213: -1638572733161353193
+    second: twoShieldSheet_6
+  - first:
+      213: 6874583124858695048
+    second: twoShieldSheet_7
+  - first:
+      213: 5783343234971398193
+    second: twoShieldSheet_8
+  - first:
+      213: 7735008350623183473
+    second: twoShieldSheet_9
+  - first:
+      213: 3084159471840470548
+    second: twoShieldSheet_10
+  - first:
+      213: 5697156893807231657
+    second: twoShieldSheet_11
+  - first:
+      213: 5900178785117709074
+    second: twoShieldSheet_12
+  - first:
+      213: 92307707250069113
+    second: twoShieldSheet_13
+  - first:
+      213: 5670402861041182435
+    second: twoShieldSheet_14
+  - first:
+      213: -5393621483177508987
+    second: twoShieldSheet_15
+  - first:
+      213: -1450782784388400973
+    second: twoShieldSheet_16
+  - first:
+      213: 5894189973835866240
+    second: twoShieldSheet_17
+  - first:
+      213: 445953941842269214
+    second: twoShieldSheet_18
+  - first:
+      213: -5994615343530416486
+    second: twoShieldSheet_19
+  - first:
+      213: 2220208448045627230
+    second: twoShieldSheet_20
+  - first:
+      213: -3864249091882881378
+    second: twoShieldSheet_21
+  - first:
+      213: -8530805611519825161
+    second: twoShieldSheet_22
+  - first:
+      213: -5367527977863453248
+    second: twoShieldSheet_23
+  - first:
+      213: 442032151596767712
+    second: twoShieldSheet_24
+  - first:
+      213: -4751502013243775226
+    second: twoShieldSheet_25
+  - first:
+      213: -4792093876519739732
+    second: twoShieldSheet_26
+  - first:
+      213: 3569727672154076633
+    second: twoShieldSheet_27
+  - first:
+      213: 4551280511134984757
+    second: twoShieldSheet_28
+  - first:
+      213: -8181358339757788100
+    second: twoShieldSheet_29
+  - first:
+      213: 2067486908236066696
+    second: twoShieldSheet_30
+  - first:
+      213: -3853865070106206669
+    second: twoShieldSheet_31
+  - first:
+      213: -5740526820689731988
+    second: twoShieldSheet_32
+  - first:
+      213: -8892199417934841726
+    second: twoShieldSheet_33
+  - first:
+      213: 3209252716831540024
+    second: twoShieldSheet_34
+  - first:
+      213: -5625578574832001064
+    second: twoShieldSheet_35
+  - first:
+      213: 8783463250238707394
+    second: twoShieldSheet_36
+  - first:
+      213: 4353231314338532001
+    second: twoShieldSheet_37
+  - first:
+      213: 2714859573129977213
+    second: twoShieldSheet_38
+  - first:
+      213: -7730713125280959001
+    second: twoShieldSheet_39
+  - first:
+      213: -5893289627491346265
+    second: twoShieldSheet_40
+  - first:
+      213: -6037317847456477468
+    second: twoShieldSheet_41
+  - first:
+      213: -8963738204897604337
+    second: twoShieldSheet_42
+  - first:
+      213: 3094053431498777467
+    second: twoShieldSheet_43
+  - first:
+      213: -1121315679620942338
+    second: twoShieldSheet_44
+  - first:
+      213: 632979655414489808
+    second: twoShieldSheet_45
+  - first:
+      213: 6520131462330879648
+    second: twoShieldSheet_46
+  - first:
+      213: 55791485146056111
+    second: twoShieldSheet_47
+  - first:
+      213: 9185721744781647379
+    second: twoShieldSheet_48
+  - first:
+      213: 3716189116714830112
+    second: twoShieldSheet_49
+  - first:
+      213: 3924599211324564978
+    second: twoShieldSheet_50
+  - first:
+      213: 7899853013087729829
+    second: twoShieldSheet_51
+  - first:
+      213: -2759221418281267368
+    second: twoShieldSheet_52
+  - first:
+      213: 7484868642547462073
+    second: twoShieldSheet_53
+  - first:
+      213: -7482533494883285171
+    second: twoShieldSheet_54
+  - first:
+      213: -5515142597407819646
+    second: twoShieldSheet_55
+  - first:
+      213: 2538127376457119366
+    second: twoShieldSheet_56
+  - first:
+      213: 8423506125545194853
+    second: twoShieldSheet_57
+  - first:
+      213: -7588278267696999939
+    second: twoShieldSheet_58
+  - first:
+      213: -4354724188116234028
+    second: twoShieldSheet_59
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +220,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +250,1293 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: twoShieldSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ce8a3a2d2f717a0800000000000000
+      internalID: -6406384958408430556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56e437cb5ff63b60800000000000000
+      internalID: 7725642980449904222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba6b681a2ea37ef0800000000000000
+      internalID: -111554069932578124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b6796c33137b2b0800000000000000
+      internalID: -5568928315775423603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7320f8ceb5c359a70800000000000000
+      internalID: 8833032609665581623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf879fb35296d5e0800000000000000
+      internalID: -1885158505613652050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 536
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710d64dd7ce9249e0800000000000000
+      internalID: -1638572733161353193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88de810ddec676f50800000000000000
+      internalID: 6874583124858695048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130f0aed700924050800000000000000
+      internalID: 5783343234971398193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1723391fc15485b60800000000000000
+      internalID: 7735008350623183473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41625b5f2b22dca20800000000000000
+      internalID: 3084159471840470548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_11
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a24c05920e501f40800000000000000
+      internalID: 5697156893807231657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213ac363855a1e150800000000000000
+      internalID: 5900178785117709074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_13
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 469
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ecba4ee51f74100800000000000000
+      internalID: 92307707250069113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6e7b9eb5151be40800000000000000
+      internalID: 5670402861041182435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ff94276d10625b0800000000000000
+      internalID: -5393621483177508987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8f6428eb8cddbe0800000000000000
+      internalID: -1450782784388400973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080e72d6d8e5cc150800000000000000
+      internalID: 5894189973835866240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1491b15fb8503600800000000000000
+      internalID: 445953941842269214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_19
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9663cb1b19decca0800000000000000
+      internalID: -5994615343530416486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 402
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57b41102d3cfce10800000000000000
+      internalID: 2220208448045627230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ee1b2bced6f5ac0800000000000000
+      internalID: -3864249091882881378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faa3759e7d7c9980800000000000000
+      internalID: -8530805611519825161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c56a751eb5b285b0800000000000000
+      internalID: -5367527977863453248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_24
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e91a3f56e9622600800000000000000
+      internalID: 442032151596767712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_25
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6072d0fe7164f0eb0800000000000000
+      internalID: -4751502013243775226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae57b742001f7db0800000000000000
+      internalID: -4792093876519739732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_27
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 335
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d530a397683a8130800000000000000
+      internalID: 3569727672154076633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aeb5bd285692f30800000000000000
+      internalID: 4551280511134984757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34be8acfe9f57e80800000000000000
+      internalID: -8181358339757788100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f6e27936031bc10800000000000000
+      internalID: 2067486908236066696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e980c2322548ac0800000000000000
+      internalID: -3853865070106206669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e9f2d654d8550b0800000000000000
+      internalID: -5740526820689731988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_33
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288fe060ebf889480800000000000000
+      internalID: -8892199417934841726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 268
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8338335b75e898c20800000000000000
+      internalID: 3209252716831540024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df171f771eede1b0800000000000000
+      internalID: -5625578574832001064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_36
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c61d201a4125e970800000000000000
+      internalID: 8783463250238707394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_37
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa4144e0d8c96c30800000000000000
+      internalID: 4353231314338532001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d1b77d56e1da520800000000000000
+      internalID: 2714859573129977213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5bd232f5df6b490800000000000000
+      internalID: -7730713125280959001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_40
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a852eace44d63ea0800000000000000
+      internalID: -5893289627491346265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_41
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 201
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee0b32a763273ca0800000000000000
+      internalID: -6037317847456477468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d0b7538976a9380800000000000000
+      internalID: -8963738204897604337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_43
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b732094f33940fa20800000000000000
+      internalID: 3094053431498777467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_44
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef53e1394594070f0800000000000000
+      internalID: -1121315679620942338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_45
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2a70794abc8c800800000000000000
+      internalID: 632979655414489808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_46
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae841515092c7a50800000000000000
+      internalID: 6520131462330879648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_47
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa54f956f0636c000800000000000000
+      internalID: 55791485146056111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_48
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 134
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e9a43424d3a7f70800000000000000
+      internalID: 9185721744781647379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029c5fbff4e829330800000000000000
+      internalID: 3716189116714830112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f567c4703af67630800000000000000
+      internalID: 3924599211324564978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8b4eec57ae1ad60800000000000000
+      internalID: 7899853013087729829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_52
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f02b23db645b9d0800000000000000
+      internalID: -2759221418281267368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_53
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf6085bf589fd760800000000000000
+      internalID: 7484868642547462073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_54
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4705893e63b82890800000000000000
+      internalID: -7482533494883285171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_55
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 67
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288b1e337074673b0800000000000000
+      internalID: -5515142597407819646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686bb6cb66d393320800000000000000
+      internalID: 2538127376457119366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c278013e46e470800000000000000
+      internalID: 8423506125545194853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_58
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df19a15be1501b690800000000000000
+      internalID: -7588278267696999939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twoShieldSheet_59
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0d7885c69e093c0800000000000000
+      internalID: -4354724188116234028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

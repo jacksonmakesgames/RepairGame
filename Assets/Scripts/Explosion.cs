@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
+    public AudioClip[] explosionSounds;
+    public AudioClip radioExplosion;
     CircleCollider2D collider;
 
     List<GameObject> hits;
-    
+
+    AudioSource audioSource;
     private void Awake(){
         collider = GetComponent<CircleCollider2D>();
         hits = new List<GameObject>();
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = explosionSounds[Random.Range(0, explosionSounds.Length)];
         CheckCollisions();
+
+        audioSource.Play();
     }
 
 
@@ -21,18 +28,29 @@ public class Explosion : MonoBehaviour
 
         foreach (Collider2D collider in cols)
         {
-            if (collider.gameObject.CompareTag("Radio")) {
+            if (collider.gameObject.CompareTag("Radio"))
+            {
+                audioSource.clip = radioExplosion;
                 if (!hits.Contains(collider.gameObject))
                 {
                     collider.GetComponent<Radio>().Damage();
                     hits.Add(collider.gameObject);
 
                 }
-            } 
-            else if (collider.gameObject.CompareTag("Player")) {
+            }
+            else if (collider.gameObject.CompareTag("MedKit"))
+            {
+                collider.GetComponent<MedKit>().damaged = true;
+            }
+            else if (collider.gameObject.CompareTag("ShieldGen"))
+            {
+                collider.GetComponent<ShieldGenerator>().Damage();
+            }
+            else if (collider.gameObject.CompareTag("Player"))
+            {
                 if (!hits.Contains(collider.gameObject))
                 {
-                    collider.GetComponent<Player>().removeHealth(10);
+                    collider.GetComponent<Player>().removeHealth(1);
                     hits.Add(collider.gameObject);
                 }
             }
