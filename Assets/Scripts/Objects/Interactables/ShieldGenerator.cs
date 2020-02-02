@@ -33,7 +33,7 @@ public class ShieldGenerator : Interactable
         if (!(Vector2.Distance(Player.Instance.transform.position, transform.position) <= Player.Instance.interactRange)) {
             return;
         }
-        if (!repaired)
+        if (!repaired && !shieldObj.GetComponent<Shield>().on)
         {
             if (Player.Instance.nScrapHeld > 0)
             {

@@ -21,7 +21,6 @@ public class ScrapIndicator : MonoBehaviour
 
     public void UpdateScrap(int amt) {
         anim.speed = .1f;
-
         anim.SetBool("Show", true);
         spriteRenderer.sprite = sprites[amt];
     }

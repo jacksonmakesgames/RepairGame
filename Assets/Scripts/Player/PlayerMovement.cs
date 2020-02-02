@@ -74,11 +74,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //jump
-        if (isGrounded) {
-            if (Input.GetButtonDown("Jump")) {
-                rb.velocity = (new Vector3(rb.velocity.x, jumpForce, 0 ));
-            }
+        if (isGrounded && Input.GetButton("Jump")) {
+              rb.velocity = (new Vector3(rb.velocity.x, jumpForce, 0 ));
         }
+        
     }
 
     void Awake()
@@ -100,6 +99,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        isGrounded = Physics2D.OverlapCircleAll(transform.position + new Vector3(0, -.3f, 0), groundCheck.radius, groundMask).Length > 0;
+
         if (canMove)
             Move();
             
@@ -113,7 +114,6 @@ public class PlayerMovement : MonoBehaviour
       
 
         //grounded:
-        isGrounded = Physics2D.OverlapCircleAll(transform.position + new Vector3(0, -.3f, 0), groundCheck.radius, groundMask).Length>0;
 
         animator.SetBool("Grounded", isGrounded);
     }

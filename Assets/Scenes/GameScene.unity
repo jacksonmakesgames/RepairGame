@@ -1024,7 +1024,7 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   debug: 0
   moveSpeed: 3
-  jumpForce: 10
+  jumpForce: 12
   canMove: 1
   timeBetweenSteps: 0.2
 --- !u!95 &384951633
@@ -1645,7 +1645,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 726911635}
-  - component: {fileID: 726911637}
   - component: {fileID: 726911636}
   - component: {fileID: 726911639}
   m_Layer: 0
@@ -1691,29 +1690,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &726911637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 726911634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2576fc09ede91914fb28a24d7da6e5f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 21300000, guid: 9fdbd83d94a897e46a9360bacae3fce3, type: 3}
-  - {fileID: 21300000, guid: a3df7d2dbfa5f6b48828b096752a486a, type: 3}
-  - {fileID: 21300000, guid: 5c0d4fd3b4e237e4e92cb510daa5b29a, type: 3}
-  - {fileID: 21300000, guid: 7d6f8856019d71449a4cbeb680b51fed, type: 3}
-  - {fileID: 21300000, guid: f470fc57fea6a3e47b9f528324e30deb, type: 3}
-  - {fileID: 21300000, guid: 38695eef4a45fdf4c91e072e66003885, type: 3}
-  - {fileID: 21300000, guid: 94833529266009a43b64103500dce869, type: 3}
-  - {fileID: 21300000, guid: abb0055326e964d4fae3e3104d1fbf4b, type: 3}
-  - {fileID: 21300000, guid: 3050090fffb42ab4c8aa244587881b11, type: 3}
-  anim: {fileID: 0}
 --- !u!114 &726911639
 MonoBehaviour:
   m_ObjectHideFlags: 0
